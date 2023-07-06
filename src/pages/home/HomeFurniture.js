@@ -2,20 +2,23 @@ import React, { Fragment } from "react";
 import MetaTags from "react-meta-tags";
 import LayoutOne from "../../layouts/LayoutOne";
 import HeroSliderTwo from "../../wrappers/hero-slider/HeroSliderTwo";
+import BrandLogoSliderOne from "../../wrappers/brand-logo/BrandLogoSliderOne";
 import BannerTwo from "../../wrappers/banner/BannerTwo";
 import TabProductTwo from "../../wrappers/product/TabProductTwo";
 import CountDownOne from "../../wrappers/countdown/CountDownOne";
+import MedicalContact from "../../components/contact/MedicalContact";
 import FeatureIconTwo from "../../wrappers/feature-icon/FeatureIconTwo";
 import BlogFeatured from "../../wrappers/blog-featured/BlogFeatured";
+import NewsletterTwo from "../../wrappers/newsletter/NewsletterTwo";
 
 const HomeFurniture = () => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Flone | Furniture Home</title>
+        <title>BARAKAT HOME</title>
         <meta
           name="description"
-          content="Furniture home of flone react minimalist eCommerce template."
+          content="Mебель из Турции по ценам фабрик производителей. Доставка до вашего дома."
         />
       </MetaTags>
       <LayoutOne headerTop="visible">
@@ -36,11 +39,23 @@ const HomeFurniture = () => {
           dateTime="November 13, 2020 12:12:00"
         />
 
+        {/* contact */}
+        <MedicalContact />
+
+        {/* brand logo slider */}
+        <BrandLogoSliderOne spaceBottomClass="pb-95" />
+
         {/* feature icon */}
         <FeatureIconTwo spaceTopClass="pt-100" spaceBottomClass="pb-60" />
 
         {/* blog featured */}
         <BlogFeatured spaceBottomClass="pb-55" />
+
+        {/* newsletter */}
+        <NewsletterTwo
+          spaceBottomClass="pb-100"
+          subscribeBtnClass="pink-subscribe"
+        />
       </LayoutOne>
     </Fragment>
   );

@@ -91,13 +91,18 @@
   }
 }
 .logo {
-  margin-top: 32px;
+  margin-top: 28px;
   @media #{$md-layout} {
     margin-top: 0;
   }
   @media #{$xs-layout} {
     margin-top: 0;
   }
+  .logo-img {
+      max-width: 200px ;
+      margin-bottom: 10px;   
+  }
+
   &.logo-hm5 {
     margin-top: 41px;
     a.sticky-block {
@@ -410,7 +415,7 @@
 
 .stick .logo,
 .stick .header-right-wrap {
-  margin-top: 22px;
+  margin-top: 15px;
   @media #{$md-layout} {
     margin-top: 0;
   }

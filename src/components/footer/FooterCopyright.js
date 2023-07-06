@@ -5,13 +5,12 @@ import { Link } from "react-router-dom";
 const FooterCopyright = ({ footerLogo, spaceBottomClass, colorClass }) => {
   return (
     <div
-      className={`copyright ${spaceBottomClass ? spaceBottomClass : ""} ${
-        colorClass ? colorClass : ""
-      }`}
+      className={`copyright ${spaceBottomClass ? spaceBottomClass : ""} ${colorClass ? colorClass : ""
+        }`}
     >
       <div className="footer-logo">
         <Link to={process.env.PUBLIC_URL + "/"}>
-          <img alt="" src={process.env.PUBLIC_URL + footerLogo} />
+          <img alt="картинка" src={process.env.PUBLIC_URL + footerLogo} className="footer-img" />
         </Link>
       </div>
       <p>
