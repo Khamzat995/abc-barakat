@@ -14,9 +14,8 @@ const HeaderTop = ({
 }) => {
   return (
     <div
-      className={`header-top-wap ${
-        borderStyle === "fluid-border" ? "border-bottom" : ""
-      }`}
+      className={`header-top-wap ${borderStyle === "fluid-border" ? "border-bottom" : ""
+        }`}
     >
       <LanguageCurrencyChanger
         currency={currency}
@@ -26,10 +25,10 @@ const HeaderTop = ({
       />
       <div className="header-offer">
         <p>
-          Free delivery on order over{" "}
-          <span>
+          Скидка по партнерской программе  {" "} <span>10%</span>
+          {/* <span>
             {currency.currencySymbol + (200 * currency.currencyRate).toFixed(2)}
-          </span>
+          </span> */}
         </p>
       </div>
     </div>

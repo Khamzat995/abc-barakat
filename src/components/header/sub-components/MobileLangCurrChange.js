@@ -30,7 +30,7 @@ const MobileLangCurrChange = ({
   return (
     <div className="mobile-menu-middle">
       <div className="lang-curr-style">
-        <span className="title mb-2">Choose Language </span>
+        <span className="title mb-2">Выберите язык </span>
         <select
           value={currentLanguageCode}
           onChange={e => {
@@ -39,12 +39,14 @@ const MobileLangCurrChange = ({
           }}
         >
           <option value="en">English</option>
+          <option value="tr">Turkish</option>
+          <option value="ru">Russian</option>
           <option value="fn">French</option>
           <option value="de">Germany</option>
         </select>
       </div>
       <div className="lang-curr-style">
-        <span className="title mb-2">Choose Currency</span>
+        <span className="title mb-2">Выберите валюту</span>
         <select
           value={currency.currencyName}
           onChange={e => {
@@ -54,7 +56,8 @@ const MobileLangCurrChange = ({
         >
           <option value="USD">USD</option>
           <option value="EUR">EUR</option>
-          <option value="GBP">GBP</option>
+          <option value="TRY">TRY</option>
+          <option value="RUB">RUB</option>
         </select>
       </div>
     </div>

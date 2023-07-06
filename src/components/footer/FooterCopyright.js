@@ -14,11 +14,11 @@ const FooterCopyright = ({ footerLogo, spaceBottomClass, colorClass }) => {
         </Link>
       </div>
       <p>
-        © 2020{" "}
+        © 2023{" "}
         <a href="//hasthemes.com" rel="noopener noreferrer" target="_blank">
-          Flone
+          Стамбул
         </a>
-        .<br /> All Rights Reserved
+        .<br /> Все права защищены
       </p>
     </div>
   );
