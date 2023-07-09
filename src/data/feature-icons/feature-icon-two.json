@@ -2,19 +2,19 @@
   {
     "id": 1,
     "image": "/assets/img/icon-img/support-1.png",
-    "title": "Free Shipping",
-    "subtitle": "Lorem ipsum dolor sit amet consectetu adipisicing elit sed"
+    "title": "Бесплатная доставка",
+    "subtitle": "Доставка мебели в страны Близнего Востока, Европы и СНГ по комфортной для покупателя цене. Доставка мебели в пределах Турции - бесплатно."
   },
   {
     "id": 2,
     "image": "/assets/img/icon-img/support-2.png",
-    "title": "Support 24/7",
-    "subtitle": "Lorem ipsum dolor sit amet consectetu adipisicing elit sed"
+    "title": "Поддержка 24/7",
+    "subtitle": "Звоните в удобное для Вас время и отправляйте сообщения"
   },
   {
     "id": 3,
     "image": "/assets/img/icon-img/support-3.png",
-    "title": "Money Return",
-    "subtitle": "Lorem ipsum dolor sit amet consectetu adipisicing elit sed"
+    "title": "Возврат денег",
+    "subtitle": "Возврат денежных средств производится в течении 48 часов путем перечисления средств на счет покупателя, либо почтовым переводом."
   }
 ]

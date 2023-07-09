@@ -43,16 +43,7 @@ const FooterOne = ({
     >
       <div className={`${containerClass ? containerClass : "container"}`}>
         <div className="row">
-          <div
-            className={`${sideMenu ? "col-xl-2 col-sm-4" : "col-lg-2 col-sm-4"
-              }`}
-          >
-            {/* footer copyright */}
-            <FooterCopyright
-              footerLogo="/assets/img/logo/logo-4.png"
-              spaceBottomClass="mb-30"
-            />
-          </div>
+
           <div
             className={`${sideMenu ? "col-xl-2 col-sm-4" : "col-lg-2 col-sm-4"
               }`}
@@ -184,6 +175,17 @@ const FooterOne = ({
               sideMenu={sideMenu}
             />
           </div>
+          <div
+            className={`${sideMenu ? "col-xl-2 col-sm-4" : "col-lg-2 col-sm-4"
+              }`}
+          >
+            {/* footer copyright */}
+            <FooterCopyright
+              footerLogo="/assets/img/logo/logo-4.png"
+              spaceBottomClass="mb-30"
+            />
+          </div>
+
         </div>
       </div>
       <button

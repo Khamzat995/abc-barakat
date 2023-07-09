@@ -89,7 +89,7 @@ const Contact = ({ location }) => {
                       </li>
                       <li>
                         <a href="//twitter.com">
-                          <i className="fa fa-twitter" />
+                          <i className="fa fa-whatsapp" />
                         </a>
                       </li>
                     </ul>

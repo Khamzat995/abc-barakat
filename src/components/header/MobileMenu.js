@@ -3,6 +3,7 @@ import MobileMenuSearch from "./sub-components/MobileSearch";
 import MobileNavMenu from "./sub-components/MobileNavMenu";
 import MobileLangCurChange from "./sub-components/MobileLangCurrChange";
 import MobileWidgets from "./sub-components/MobileWidgets";
+import FooterCopyrightMini from "../../components/footer/FooterCopyrightMini";
 
 const MobileMenu = () => {
   useEffect(() => {
@@ -66,6 +67,13 @@ const MobileMenu = () => {
 
           {/* mobile widgets */}
           <MobileWidgets />
+
+          {/* footer copyright */}
+          <FooterCopyrightMini
+            footerLogo="/assets/img/logo/logo-4.png"
+            spaceBottomClass="mb-30"
+          />
+
         </div>
       </div>
     </div>

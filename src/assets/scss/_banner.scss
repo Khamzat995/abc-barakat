@@ -1292,7 +1292,18 @@
 
 .medical-contact-area {
   padding: 52px 0 60px;
+  margin-top: -5%;
 }
+.medical-contact-area {
+  @media #{$md-layout} {
+    margin-top: -10%;
+  }
+  @media #{$xs-layout} {
+    margin-top: -12%;
+  }
+}
+
+
 .medical-contact-text {
   h3 {
     font-family: $lobster;

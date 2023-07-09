@@ -39,11 +39,11 @@ const HomeFurniture = () => {
           dateTime="November 13, 2020 12:12:00"
         />
 
-        {/* contact */}
-        <MedicalContact />
-
         {/* brand logo slider */}
         <BrandLogoSliderOne spaceBottomClass="pb-95" />
+
+        {/* contact */}
+        <MedicalContact />
 
         {/* feature icon */}
         <FeatureIconTwo spaceTopClass="pt-100" spaceBottomClass="pb-60" />

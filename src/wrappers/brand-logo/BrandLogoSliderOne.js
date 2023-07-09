@@ -8,7 +8,7 @@ const BrandLogoSliderOne = ({ spaceBottomClass, spaceTopClass }) => {
   const settings = {
     loop: true,
     autoplay: {
-      delay: 3000,
+      delay: 2000,
       disableOnInteraction: false
     },
     grabCursor: true,
@@ -30,9 +30,8 @@ const BrandLogoSliderOne = ({ spaceBottomClass, spaceTopClass }) => {
 
   return (
     <div
-      className={`brand-logo-area ${
-        spaceBottomClass ? spaceBottomClass : ""
-      }  ${spaceTopClass ? spaceTopClass : ""}`}
+      className={`brand-logo-area ${spaceBottomClass ? spaceBottomClass : ""
+        }  ${spaceTopClass ? spaceTopClass : ""}`}
     >
       <div className="container">
         <div className="brand-logo-active">
