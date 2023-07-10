@@ -337,11 +337,11 @@ const MobileNavMenu = ({ strings }) => {
             </li>
           </ul> */}
         </li>
-        <li>
+        {/* <li>
           <Link to={process.env.PUBLIC_URL + "/shop-grid-two-column"}>
             {strings["collection"]}
           </Link>
-        </li>
+        </li> */}
         <li className="menu-item-has-children">
           <Link to={process.env.PUBLIC_URL + "/"}>{strings["pages"]}</Link>
           <ul className="sub-menu">

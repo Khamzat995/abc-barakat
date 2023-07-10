@@ -28,7 +28,7 @@ const CustomForm = ({
             className="email"
             ref={node => (email = node)}
             type="email"
-            placeholder="Your Email Address"
+            placeholder="Ваш электронный адрес"
             required
           />
         </div>
@@ -51,7 +51,7 @@ const CustomForm = ({
           className={`clear-3 ${subscribeBtnClass ? subscribeBtnClass : ""}`}
         >
           <button className="button" onClick={submit}>
-            SUBSCRIBE
+            ПОДПИСАТЬСЯ
           </button>
         </div>
       </div>

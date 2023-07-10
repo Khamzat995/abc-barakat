@@ -31,14 +31,12 @@ const ProductGridSingleTwo = ({
   return (
     <Fragment>
       <div
-        className={`col-xl-3 col-md-6 col-lg-4 col-sm-6 ${
-          sliderClassName ? sliderClassName : ""
-        }`}
+        className={`col-xl-3 col-md-6 col-lg-4 col-sm-6 ${sliderClassName ? sliderClassName : ""
+          }`}
       >
         <div
-          className={`product-wrap-2 ${
-            spaceBottomClass ? spaceBottomClass : ""
-          } ${colorClass ? colorClass : ""} `}
+          className={`product-wrap-2 ${spaceBottomClass ? spaceBottomClass : ""
+            } ${colorClass ? colorClass : ""} `}
         >
           <div className="product-img">
             <Link to={process.env.PUBLIC_URL + "/product/" + product.id}>
@@ -60,11 +58,11 @@ const ProductGridSingleTwo = ({
             {product.discount || product.new ? (
               <div className="product-img-badges">
                 {product.discount ? (
-                  <span className="pink">-{product.discount}%</span>
+                  <span className="red">-{product.discount}%</span>
                 ) : (
                   ""
                 )}
-                {product.new ? <span className="purple">New</span> : ""}
+                {product.new ? <span className="purple">Новинка</span> : ""}
               </div>
             ) : (
               ""
@@ -130,9 +128,8 @@ const ProductGridSingleTwo = ({
           </div>
           <div className="product-content-2">
             <div
-              className={`title-price-wrap-2 ${
-                titlePriceClass ? titlePriceClass : ""
-              }`}
+              className={`title-price-wrap-2 ${titlePriceClass ? titlePriceClass : ""
+                }`}
             >
               <h3>
                 <Link to={process.env.PUBLIC_URL + "/product/" + product.id}>

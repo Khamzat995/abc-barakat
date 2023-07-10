@@ -6,26 +6,25 @@ import { multilanguage } from "redux-multilanguage";
 const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
   return (
     <div
-      className={` ${
-        sidebarMenu
-          ? "sidebar-menu"
-          : `main-menu ${menuWhiteClass ? menuWhiteClass : ""}`
-      } `}
+      className={` ${sidebarMenu
+        ? "sidebar-menu"
+        : `main-menu ${menuWhiteClass ? menuWhiteClass : ""}`
+        } `}
     >
       <nav>
         <ul>
           <li>
             <Link to={process.env.PUBLIC_URL + "/"}>
               {strings["home"]}
-              {sidebarMenu ? (
+              {/* {sidebarMenu ? (
                 <span>
                   <i className="fa fa-angle-right"></i>
                 </span>
               ) : (
                 <i className="fa fa-angle-down" />
-              )}
+              )} */}
             </Link>
-            <ul className="mega-menu mega-menu-padding">
+            {/* <ul className="mega-menu mega-menu-padding">
               <li>
                 <ul>
                   <li className="mega-menu-title">
@@ -251,21 +250,21 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
                   </li>
                 </ul>
               </li>
-            </ul>
+            </ul> */}
           </li>
           <li>
-            <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
+            <Link to={process.env.PUBLIC_URL + "/shop-grid-two-column"}>
               {" "}
               {strings["shop"]}
-              {sidebarMenu ? (
+              {/* {sidebarMenu ? (
                 <span>
                   <i className="fa fa-angle-right"></i>
                 </span>
               ) : (
                 <i className="fa fa-angle-down" />
-              )}
+              )} */}
             </Link>
-            <ul className="mega-menu">
+            {/*  <ul className="mega-menu">
               <li>
                 <ul>
                   <li className="mega-menu-title">
@@ -393,13 +392,13 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
                   </li>
                 </ul>
               </li>
-            </ul>
+            </ul> */}
           </li>
-          <li>
+          {/*  <li>
             <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
               {strings["collection"]}
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link to={process.env.PUBLIC_URL + "/"}>
               {strings["pages"]}
@@ -462,15 +461,15 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
           <li>
             <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
               {strings["blog"]}
-              {sidebarMenu ? (
+              {/* {sidebarMenu ? (
                 <span>
                   <i className="fa fa-angle-right"></i>
                 </span>
               ) : (
                 <i className="fa fa-angle-down" />
-              )}
+              )} */}
             </Link>
-            <ul className="submenu">
+            {/* <ul className="submenu">
               <li>
                 <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
                   {strings["blog_standard"]}
@@ -491,7 +490,7 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
                   {strings["blog_details_standard"]}
                 </Link>
               </li>
-            </ul>
+            </ul> */}
           </li>
           <li>
             <Link to={process.env.PUBLIC_URL + "/contact"}>

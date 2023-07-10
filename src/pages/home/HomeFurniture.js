@@ -36,7 +36,7 @@ const HomeFurniture = () => {
           spaceTopClass="pt-115"
           spaceBottomClass="pb-115"
           bgImg="/assets/img/bg/bg-1.jpg"
-          dateTime="November 13, 2020 12:12:00"
+          dateTime="September 1, 2023 12:00:00"
         />
 
         {/* brand logo slider */}
