@@ -146,6 +146,11 @@
       transition: all 0.3s ease 0s;
 
       color: #555;
+      box-shadow: 1px 1px 2px black;
+      padding: 5px;
+border-radius: 2px;
+background-color: rgba(196, 190, 190, 0.151);
+
       &:hover {
         color: #000;
       }
