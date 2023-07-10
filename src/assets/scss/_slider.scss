@@ -70,16 +70,20 @@
     h3 {
       font-size: 24px;
       font-weight: 500;
-
+      text-shadow: 1px 1px 2px black;
+      color: #f7ed04;
       margin: 0;
     }
     h1 {
       font-size: 72px;
+      font-weight: 500;
       line-height: 97px;
 
       margin: 6px 0 37px;
 
-      color: #010101;
+      text-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+
+      color: white;
       @media #{$lg-layout} {
         font-size: 52px;
         line-height: 65px;
@@ -113,8 +117,11 @@
 
         text-transform: uppercase;
 
-        color: #010101;
-        border: 1px solid #333;
+        color: white;
+        text-shadow: 1px 1px 2px black;
+
+        border: 1px solid rgb(230, 226, 226);
+        box-shadow: 1px 1px 2px black;
         @media #{$md-layout} {
           padding: 15px 35px 17px;
         }

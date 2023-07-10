@@ -35,7 +35,7 @@ const HomeFurniture = () => {
         <CountDownOne
           spaceTopClass="pt-115"
           spaceBottomClass="pb-115"
-          bgImg="/assets/img/bg/bg-1.jpg"
+          bgImg="/assets/img/bg/bg-11.jpg"
           dateTime="September 1, 2023 12:00:00"
         />
 
