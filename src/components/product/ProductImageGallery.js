@@ -87,7 +87,7 @@ const ProductImageGallery = ({ product }) => {
                       <img
                         src={process.env.PUBLIC_URL + single}
                         className="img-fluid"
-                        alt=""
+                        alt="картинка"
                       />
                     </div>
                   </div>
@@ -106,7 +106,7 @@ const ProductImageGallery = ({ product }) => {
                     <img
                       src={process.env.PUBLIC_URL + single}
                       className="img-fluid"
-                      alt=""
+                      alt="картинка"
                     />
                   </div>
                 </div>

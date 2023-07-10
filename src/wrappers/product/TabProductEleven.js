@@ -74,11 +74,9 @@ const TabProductEleven = ({
   };
   return (
     <div
-      className={`product-area product-area--style2 ${
-        spaceTopClass ? spaceTopClass : ""
-      } ${spaceBottomClass ? spaceBottomClass : ""} ${
-        bgColorClass ? bgColorClass : ""
-      }`}
+      className={`product-area product-area--style2 ${spaceTopClass ? spaceTopClass : ""
+        } ${spaceBottomClass ? spaceBottomClass : ""} ${bgColorClass ? bgColorClass : ""
+        }`}
     >
       <div className="container">
         <div className="product-tab-slider-wrapper position-relative">
@@ -199,7 +197,7 @@ const TabProductEleven = ({
         <div className="bg-png-1">
           <img
             src={process.env.PUBLIC_URL + "/assets/img/bg/shape-2.png"}
-            alt=""
+            alt="картинка"
           />
         </div>
       ) : (

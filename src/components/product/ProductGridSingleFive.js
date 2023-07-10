@@ -29,21 +29,19 @@ const ProductGridSingleFive = ({
   return (
     <Fragment>
       <div
-        className={`col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 ${
-          sliderClassName ? sliderClassName : ""
-        }`}
+        className={`col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 ${sliderClassName ? sliderClassName : ""
+          }`}
       >
         <div
-          className={`product-wrap-3 scroll-zoom ${
-            spaceBottomClass ? spaceBottomClass : ""
-          }`}
+          className={`product-wrap-3 scroll-zoom ${spaceBottomClass ? spaceBottomClass : ""
+            }`}
         >
           <div className="product-img">
             <Link to={process.env.PUBLIC_URL + "/product/" + product.id}>
               <img
                 className="default-img"
                 src={process.env.PUBLIC_URL + product.image[0]}
-                alt=""
+                alt="картинка"
               />
             </Link>
             {product.discount || product.new ? (

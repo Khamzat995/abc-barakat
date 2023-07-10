@@ -79,7 +79,7 @@ const Compare = ({
                                         process.env.PUBLIC_URL +
                                         compareItem.image[0]
                                       }
-                                      alt=""
+                                      alt="картинка"
                                     />
                                   </Link>
                                   <div className="product-title">
@@ -118,7 +118,7 @@ const Compare = ({
                                         }
                                         className={
                                           cartItem !== undefined &&
-                                          cartItem.quantity > 0
+                                            cartItem.quantity > 0
                                             ? "active"
                                             : ""
                                         }
@@ -133,7 +133,7 @@ const Compare = ({
                                         }
                                       >
                                         {cartItem !== undefined &&
-                                        cartItem.quantity > 0
+                                          cartItem.quantity > 0
                                           ? "Added"
                                           : "Add to cart"}
                                       </button>

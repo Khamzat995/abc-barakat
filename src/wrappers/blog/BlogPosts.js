@@ -9,7 +9,7 @@ const BlogPosts = () => {
             <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
               <img
                 src={process.env.PUBLIC_URL + "/assets/img/blog/blog-9.jpg"}
-                alt=""
+                alt="картинка"
               />
             </Link>
           </div>
@@ -71,7 +71,7 @@ const BlogPosts = () => {
             <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
               <img
                 src={process.env.PUBLIC_URL + "/assets/img/blog/blog-8.jpg"}
-                alt=""
+                alt="картинка"
               />
             </Link>
           </div>
@@ -133,7 +133,7 @@ const BlogPosts = () => {
             <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
               <img
                 src={process.env.PUBLIC_URL + "/assets/img/blog/blog-7.jpg"}
-                alt=""
+                alt="картинка"
               />
             </Link>
           </div>
@@ -195,7 +195,7 @@ const BlogPosts = () => {
             <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
               <img
                 src={process.env.PUBLIC_URL + "/assets/img/blog/blog-6.jpg"}
-                alt=""
+                alt="картинка"
               />
             </Link>
           </div>
@@ -257,7 +257,7 @@ const BlogPosts = () => {
             <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
               <img
                 src={process.env.PUBLIC_URL + "/assets/img/blog/blog-5.jpg"}
-                alt=""
+                alt="картинка"
               />
             </Link>
           </div>
@@ -319,7 +319,7 @@ const BlogPosts = () => {
             <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
               <img
                 src={process.env.PUBLIC_URL + "/assets/img/blog/blog-4.jpg"}
-                alt=""
+                alt="картинка"
               />
             </Link>
           </div>

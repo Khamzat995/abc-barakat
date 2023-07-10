@@ -14,7 +14,7 @@ const BannerThirtyOne = ({ spaceBottomClass }) => {
                   src={
                     process.env.PUBLIC_URL + "/assets/img/banner/banner-46.jpg"
                   }
-                  alt=""
+                  alt="картинка"
                   className="img-fluid"
                 />
               </Link>
@@ -35,7 +35,7 @@ const BannerThirtyOne = ({ spaceBottomClass }) => {
                   src={
                     process.env.PUBLIC_URL + "/assets/img/banner/banner-47.jpg"
                   }
-                  alt=""
+                  alt="картинка"
                   className="img-fluid"
                 />
               </Link>

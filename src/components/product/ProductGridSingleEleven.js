@@ -31,29 +31,26 @@ const ProductGridSingleEleven = ({
   return (
     <Fragment>
       <div
-        className={`col-xl-3 col-md-6 col-lg-4 col-sm-6 col-12 ${
-          sliderClassName ? sliderClassName : ""
-        }`}
+        className={`col-xl-3 col-md-6 col-lg-4 col-sm-6 col-12 ${sliderClassName ? sliderClassName : ""
+          }`}
       >
         <div
-          className={`product-wrap-10 ${
-            spaceBottomClass ? spaceBottomClass : ""
-          } ${colorClass ? colorClass : ""} ${
-            productGridStyleClass ? productGridStyleClass : ""
-          } `}
+          className={`product-wrap-10 ${spaceBottomClass ? spaceBottomClass : ""
+            } ${colorClass ? colorClass : ""} ${productGridStyleClass ? productGridStyleClass : ""
+            } `}
         >
           <div className="product-img">
             <Link to={process.env.PUBLIC_URL + "/product/" + product.id}>
               <img
                 className="default-img img-fluid"
                 src={process.env.PUBLIC_URL + product.image[0]}
-                alt=""
+                alt="картинка"
               />
               {product.image.length > 1 ? (
                 <img
                   className="hover-img img-fluid"
                   src={process.env.PUBLIC_URL + product.image[1]}
-                  alt=""
+                  alt="картинка"
                 />
               ) : (
                 ""

@@ -6,12 +6,11 @@ const BannerThirtyTwoSingle = ({ data, spaceBottomClass }) => {
   return (
     <div className="col-lg-4 col-md-4">
       <div
-        className={`single-banner banner-red-color ${
-          spaceBottomClass ? spaceBottomClass : ""
-        }`}
+        className={`single-banner banner-red-color ${spaceBottomClass ? spaceBottomClass : ""
+          }`}
       >
         <Link to={process.env.PUBLIC_URL + data.link}>
-          <img src={process.env.PUBLIC_URL + data.image} alt="" />
+          <img src={process.env.PUBLIC_URL + data.image} alt="картинка" />
         </Link>
         <div className="banner-content">
           <h3>{data.title}</h3>

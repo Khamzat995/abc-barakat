@@ -26,7 +26,7 @@ const MedicalContact = () => {
                       process.env.PUBLIC_URL +
                       "/assets/img/icon-img/medical-contact-shape.png"
                     }
-                    alt=""
+                    alt="картинка"
                   />
                 </div>
               </div>
@@ -38,7 +38,7 @@ const MedicalContact = () => {
                         process.env.PUBLIC_URL +
                         "/assets/img/icon-img/medical-contact.png"
                       }
-                      alt=""
+                      alt="картинка"
                     />
                   </div>
                   <div className="medical-contact-number">

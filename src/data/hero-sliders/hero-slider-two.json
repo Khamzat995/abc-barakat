@@ -1,16 +1,23 @@
 [
   {
     "id": 1,
-    "title": "Smart Products",
-    "subtitle": "Winter Offer 2020 Collection",
-    "image": "/assets/img/slider/single-slide-4.png",
+    "title": "Pinar Furniture",
+    "subtitle": "Коллекция 2023, живая среда",
+    "image": "/assets/img/slider/single-slide-50.jpg",
     "url": "/shop-grid-standard"
   },
   {
     "id": 2,
-    "title": "Smart Products",
-    "subtitle": "Summer Offer 2020 Collection",
-    "image": "/assets/img/slider/single-slide-5.png",
+    "title": "Inegol, Bursa, Türkiye",
+    "subtitle": "Новый дизайн, безупречное качество",
+    "image": "/assets/img/slider/single-slide-51.jpg",
+    "url": "/shop-grid-standard"
+  },
+  {
+    "id": 3,
+    "title": "Коллекция 2023",
+    "subtitle": "Современные технологии, лучшие материалы",
+    "image": "/assets/img/slider/single-slide-53.jpg",
     "url": "/shop-grid-standard"
   }
 ]

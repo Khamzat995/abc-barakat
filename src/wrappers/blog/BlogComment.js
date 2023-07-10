@@ -9,7 +9,7 @@ const BlogComment = () => {
           <div className="blog-comment-img">
             <img
               src={process.env.PUBLIC_URL + "/assets/img/blog/comment-1.jpg"}
-              alt=""
+              alt="картинка"
             />
           </div>
           <div className="blog-comment-content">
@@ -26,7 +26,7 @@ const BlogComment = () => {
           <div className="blog-comment-img">
             <img
               src={process.env.PUBLIC_URL + "/assets/img/blog/comment-2.jpg"}
-              alt=""
+              alt="картинка"
             />
           </div>
           <div className="blog-comment-content">

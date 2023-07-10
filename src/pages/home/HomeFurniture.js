@@ -26,7 +26,7 @@ const HomeFurniture = () => {
         <HeroSliderTwo />
 
         {/* banner */}
-        <BannerTwo spaceTopClass="pt-80" spaceBottomClass="pb-60" />
+        {/* <BannerTwo spaceTopClass="pt-80" spaceBottomClass="pb-60" /> */}
 
         {/* tab product */}
         <TabProductTwo spaceBottomClass="pb-100" category="furniture" />

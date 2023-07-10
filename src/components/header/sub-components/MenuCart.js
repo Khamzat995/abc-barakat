@@ -33,7 +33,7 @@ const MenuCart = ({ cartData, currency, deleteFromCart }) => {
                   <div className="shopping-cart-img">
                     <Link to={process.env.PUBLIC_URL + "/product/" + single.id}>
                       <img
-                        alt=""
+                        alt="картинка"
                         src={process.env.PUBLIC_URL + single.image[0]}
                         className="img-fluid"
                       />
@@ -55,7 +55,7 @@ const MenuCart = ({ cartData, currency, deleteFromCart }) => {
                         : currency.currencySymbol + finalProductPrice}
                     </span>
                     {single.selectedProductColor &&
-                    single.selectedProductSize ? (
+                      single.selectedProductSize ? (
                       <div className="cart-item-variation">
                         <span>Color: {single.selectedProductColor}</span>
                         <span>Size: {single.selectedProductSize}</span>

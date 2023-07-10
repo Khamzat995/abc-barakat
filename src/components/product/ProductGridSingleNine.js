@@ -30,27 +30,25 @@ const ProductGridSingleNine = ({
   return (
     <Fragment>
       <div
-        className={`col-xl-3 col-md-6 col-lg-4 col-sm-6 ${
-          sliderClassName ? sliderClassName : ""
-        }`}
+        className={`col-xl-3 col-md-6 col-lg-4 col-sm-6 ${sliderClassName ? sliderClassName : ""
+          }`}
       >
         <div
-          className={`product-wrap-9 ${
-            spaceBottomClass ? spaceBottomClass : ""
-          } ${colorClass ? colorClass : ""} `}
+          className={`product-wrap-9 ${spaceBottomClass ? spaceBottomClass : ""
+            } ${colorClass ? colorClass : ""} `}
         >
           <div className="product-img">
             <Link to={process.env.PUBLIC_URL + "/product/" + product.id}>
               <img
                 className="default-img"
                 src={process.env.PUBLIC_URL + product.image[0]}
-                alt=""
+                alt="картинка"
               />
               {product.image.length > 1 ? (
                 <img
                   className="hover-img"
                   src={process.env.PUBLIC_URL + product.image[1]}
-                  alt=""
+                  alt="картинка"
                 />
               ) : (
                 ""

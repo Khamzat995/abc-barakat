@@ -31,21 +31,19 @@ const ProductGridSingleEight = ({
   return (
     <Fragment>
       <div
-        className={`col-xl-4 col-md-6 ${
-          sliderClassName ? sliderClassName : ""
-        }`}
+        className={`col-xl-4 col-md-6 ${sliderClassName ? sliderClassName : ""
+          }`}
       >
         <div
-          className={`product-wrap-8 ${
-            spaceBottomClass ? spaceBottomClass : ""
-          } ${colorClass ? colorClass : ""}`}
+          className={`product-wrap-8 ${spaceBottomClass ? spaceBottomClass : ""
+            } ${colorClass ? colorClass : ""}`}
         >
           <div className="product-img">
             <Link to={process.env.PUBLIC_URL + "/product/" + product.id}>
               <img
                 className="default-img img-fluid"
                 src={process.env.PUBLIC_URL + product.image[0]}
-                alt=""
+                alt="картинка"
               />
             </Link>
             {product.discount || product.new ? (

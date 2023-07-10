@@ -16,7 +16,7 @@ const BannerFive = () => {
                         process.env.PUBLIC_URL +
                         "/assets/img/banner/banner-21.png"
                       }
-                      alt=""
+                      alt="картинка"
                     />
                   </Link>
                   <div className="banner-content-3 banner-position-hm15-1">
@@ -38,7 +38,7 @@ const BannerFive = () => {
                         process.env.PUBLIC_URL +
                         "/assets/img/banner/banner-22.png"
                       }
-                      alt=""
+                      alt="картинка"
                     />
                   </Link>
                   <div className="banner-content-3 banner-position-hm15-1">
@@ -61,7 +61,7 @@ const BannerFive = () => {
                   src={
                     process.env.PUBLIC_URL + "/assets/img/banner/banner-23.png"
                   }
-                  alt=""
+                  alt="картинка"
                 />
               </Link>
               <div className="banner-content-4 banner-position-hm15-2">
@@ -84,7 +84,7 @@ const BannerFive = () => {
                         process.env.PUBLIC_URL +
                         "/assets/img/banner/banner-24.png"
                       }
-                      alt=""
+                      alt="картинка"
                     />
                   </Link>
                   <div className="banner-content-3 banner-position-hm15-2">
@@ -106,7 +106,7 @@ const BannerFive = () => {
                         process.env.PUBLIC_URL +
                         "/assets/img/banner/banner-25.png"
                       }
-                      alt=""
+                      alt="картинка"
                     />
                   </Link>
                   <div className="banner-content-3 banner-position-hm15-2">

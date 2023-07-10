@@ -5,9 +5,12 @@ import { Link } from "react-router-dom";
 const HeroSliderTwoSingle = ({ data, sliderClassName }) => {
   return (
     <div
-      className={`single-slider single-slider-10 slider-height-8 bg-aqua ${
-        sliderClassName ? sliderClassName : ""
-      }`}
+      className={`single-slider single-slider-10 slider-height-8 bg-img ${sliderClassName ? sliderClassName : ""
+        }`}
+      style={{
+        backgroundImage: `url(${process.env.PUBLIC_URL + "/assets/img/slider/fon-hero-slider.webp"
+          })`
+      }}
     >
       <div className="container">
         <div className="row">
@@ -20,7 +23,7 @@ const HeroSliderTwoSingle = ({ data, sliderClassName }) => {
                   className="animated"
                   to={process.env.PUBLIC_URL + data.url}
                 >
-                  SHOP NOW
+                  Посмотреть
                 </Link>
               </div>
             </div>
@@ -30,7 +33,7 @@ const HeroSliderTwoSingle = ({ data, sliderClassName }) => {
               <img
                 className="animated img-fluid"
                 src={process.env.PUBLIC_URL + data.image}
-                alt=""
+                alt="картинка"
               />
             </div>
           </div>

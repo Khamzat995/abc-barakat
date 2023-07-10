@@ -14,7 +14,7 @@ const BannerTwentyNine = ({ spaceBottomClass }) => {
                   src={
                     process.env.PUBLIC_URL + "/assets/img/banner/banner-39.jpg"
                   }
-                  alt=""
+                  alt="картинка"
                   className="img-fluid"
                 />
               </Link>
@@ -35,7 +35,7 @@ const BannerTwentyNine = ({ spaceBottomClass }) => {
                   src={
                     process.env.PUBLIC_URL + "/assets/img/banner/banner-40.jpg"
                   }
-                  alt=""
+                  alt="картинка"
                   className="img-fluid"
                 />
               </Link>

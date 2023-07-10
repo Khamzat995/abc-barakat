@@ -13,9 +13,8 @@ const CountDownFive = ({
 }) => {
   return (
     <div
-      className={`funfact-area ${spaceTopClass ? spaceTopClass : ""} ${
-        spaceBottomClass ? spaceBottomClass : ""
-      }`}
+      className={`funfact-area ${spaceTopClass ? spaceTopClass : ""} ${spaceBottomClass ? spaceBottomClass : ""
+        }`}
       style={{ backgroundImage: `url(${process.env.PUBLIC_URL + bgImg})` }}
     >
       <div className="container">
@@ -37,7 +36,7 @@ const CountDownFive = ({
             <div className="funfact-image text-center text-lg-right">
               <img
                 src={process.env.PUBLIC_URL + image}
-                alt=""
+                alt="картинка"
                 className="img-fluid"
               />
             </div>

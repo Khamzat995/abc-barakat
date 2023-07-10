@@ -11,7 +11,7 @@ const FeatureIconFiveSingle = ({ data, spaceBottomClass, textAlignClass }) => {
           <img
             className="animated"
             src={process.env.PUBLIC_URL + data.image}
-            alt=""
+            alt="картинка"
           />
         </div>
         <div className="support-content-4">

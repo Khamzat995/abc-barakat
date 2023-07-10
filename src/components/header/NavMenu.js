@@ -386,7 +386,7 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
                           process.env.PUBLIC_URL +
                           "/assets/img/banner/banner-12.png"
                         }
-                        alt=""
+                        alt="картинка"
                       />
                     </Link>
                   </li>

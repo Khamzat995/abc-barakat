@@ -14,7 +14,7 @@ const BannerThirtySix = ({ spaceBottomClass }) => {
                   src={
                     process.env.PUBLIC_URL + "/assets/img/banner/banner-56.png"
                   }
-                  alt=""
+                  alt="картинка"
                 />
               </Link>
               <div className="banner-content-6">
@@ -31,7 +31,7 @@ const BannerThirtySix = ({ spaceBottomClass }) => {
                   src={
                     process.env.PUBLIC_URL + "/assets/img/banner/banner-57.png"
                   }
-                  alt=""
+                  alt="картинка"
                 />
               </Link>
               <div className="banner-content-7">
@@ -48,7 +48,7 @@ const BannerThirtySix = ({ spaceBottomClass }) => {
                   src={
                     process.env.PUBLIC_URL + "/assets/img/banner/banner-58.png"
                   }
-                  alt=""
+                  alt="картинка"
                 />
               </Link>
               <div className="banner-content-8">

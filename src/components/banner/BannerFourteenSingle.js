@@ -9,7 +9,7 @@ const BannerFourteenSingle = ({ data, spaceBottomClass }) => {
         className={`single-banner ${spaceBottomClass ? spaceBottomClass : ""}`}
       >
         <Link to={process.env.PUBLIC_URL + data.link}>
-          <img src={process.env.PUBLIC_URL + data.image} alt="" />
+          <img src={process.env.PUBLIC_URL + data.image} alt="картинка" />
         </Link>
         <div className="banner-content banner-pink">
           <h3>{data.title}</h3>

@@ -12,9 +12,8 @@ const CountDownSix = ({
 }) => {
   return (
     <div
-      className={`funfact-area ${spaceTopClass ? spaceTopClass : ""} ${
-        spaceBottomClass ? spaceBottomClass : ""
-      }`}
+      className={`funfact-area ${spaceTopClass ? spaceTopClass : ""} ${spaceBottomClass ? spaceBottomClass : ""
+        }`}
     >
       <div className="container">
         <div className="row align-items-center">
@@ -36,7 +35,7 @@ const CountDownSix = ({
               <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
                 <img
                   src={process.env.PUBLIC_URL + countDownImage}
-                  alt=""
+                  alt="картинка"
                   className="img-fluid"
                 />
               </Link>
@@ -47,7 +46,7 @@ const CountDownSix = ({
       <div className="bg-png-2">
         <img
           src={process.env.PUBLIC_URL + "/assets/img/bg/shape-2.png"}
-          alt=""
+          alt="картинка"
         />
       </div>
     </div>

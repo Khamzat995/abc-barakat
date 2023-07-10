@@ -5,9 +5,8 @@ import { Link } from "react-router-dom";
 const BannerNineteen = ({ spaceTopClass, spaceBottomClass }) => {
   return (
     <div
-      className={`banner-area ${spaceTopClass ? spaceTopClass : ""}  ${
-        spaceBottomClass ? spaceBottomClass : ""
-      }`}
+      className={`banner-area ${spaceTopClass ? spaceTopClass : ""}  ${spaceBottomClass ? spaceBottomClass : ""
+        }`}
     >
       <div className="container padding-20-row-col">
         <div className="row">
@@ -18,7 +17,7 @@ const BannerNineteen = ({ spaceTopClass, spaceBottomClass }) => {
                   src={
                     process.env.PUBLIC_URL + "/assets/img/banner/banner24.jpg"
                   }
-                  alt=""
+                  alt="картинка"
                 />
               </Link>
               <div className="banner-content-4 banner-position-hm15-2 pink-banner">
@@ -38,7 +37,7 @@ const BannerNineteen = ({ spaceTopClass, spaceBottomClass }) => {
                   src={
                     process.env.PUBLIC_URL + "/assets/img/banner/banner25.jpg"
                   }
-                  alt=""
+                  alt="картинка"
                 />
               </Link>
               <div className="banner-content-3 banner-position-hm15-2 pink-banner">
@@ -57,7 +56,7 @@ const BannerNineteen = ({ spaceTopClass, spaceBottomClass }) => {
                   src={
                     process.env.PUBLIC_URL + "/assets/img/banner/banner26.jpg"
                   }
-                  alt=""
+                  alt="картинка"
                 />
               </Link>
               <div className="banner-content-3 banner-position-hm17-1 pink-banner">

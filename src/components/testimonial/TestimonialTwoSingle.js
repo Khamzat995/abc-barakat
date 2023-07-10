@@ -4,11 +4,10 @@ import React from "react";
 const TestimonialTwoSingle = ({ data, sliderClass }) => {
   return (
     <div
-      className={`single-testimonial single-testimonial--style2 text-center ${
-        sliderClass ? sliderClass : ""
-      }`}
+      className={`single-testimonial single-testimonial--style2 text-center ${sliderClass ? sliderClass : ""
+        }`}
     >
-      <img src={process.env.PUBLIC_URL + data.image} alt="" />
+      <img src={process.env.PUBLIC_URL + data.image} alt="картинка" />
       <p>{data.content}</p>
       <div className="client-info">
         <h5>{data.customerName}</h5>

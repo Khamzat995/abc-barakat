@@ -5,20 +5,19 @@ const FeatureIconFourSingle = ({ data, spaceBottomClass }) => {
   return (
     <div className="col-lg-4 col-md-6 col-sm-6">
       <div
-        className={`support-wrap-3 text-center ${
-          spaceBottomClass ? spaceBottomClass : ""
-        }`}
+        className={`support-wrap-3 text-center ${spaceBottomClass ? spaceBottomClass : ""
+          }`}
         style={{ backgroundColor: `${data.backgroundColor}` }}
       >
         <div className="support-icon-2">
           <img
             className="animated"
             src={process.env.PUBLIC_URL + data.iconImage}
-            alt=""
+            alt="картинка"
           />
         </div>
         <div className="support-content-3">
-          <img src={process.env.PUBLIC_URL + data.titleImage} alt="" />
+          <img src={process.env.PUBLIC_URL + data.titleImage} alt="картинка" />
           <p>{data.title}</p>
         </div>
       </div>

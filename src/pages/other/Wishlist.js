@@ -94,7 +94,7 @@ const Wishlist = ({
                                         process.env.PUBLIC_URL +
                                         wishlistItem.image[0]
                                       }
-                                      alt=""
+                                      alt="картинка"
                                     />
                                   </Link>
                                 </td>
@@ -156,7 +156,7 @@ const Wishlist = ({
                                       }
                                       className={
                                         cartItem !== undefined &&
-                                        cartItem.quantity > 0
+                                          cartItem.quantity > 0
                                           ? "active"
                                           : ""
                                       }
@@ -171,7 +171,7 @@ const Wishlist = ({
                                       }
                                     >
                                       {cartItem !== undefined &&
-                                      cartItem.quantity > 0
+                                        cartItem.quantity > 0
                                         ? "Added"
                                         : "Add to cart"}
                                     </button>

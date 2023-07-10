@@ -39,8 +39,8 @@ const FooterTwo = ({
         } ${backgroundImage ? "bg-img" : ""}`}
       style={{
         backgroundImage: ` ${backgroundImage
-            ? `url(${process.env.PUBLIC_URL + backgroundImage})`
-            : `url()`
+          ? `url(${process.env.PUBLIC_URL + backgroundImage})`
+          : `url()`
           }`
       }}
     >
@@ -53,7 +53,7 @@ const FooterTwo = ({
           <div className="footer-logo">
             <Link to={process.env.PUBLIC_URL}>
               <img
-                alt=""
+                alt="картинка"
                 src={
                   process.env.PUBLIC_URL +
                   `${footerLogo ? footerLogo : "/assets/img/logo/logo.png"}`

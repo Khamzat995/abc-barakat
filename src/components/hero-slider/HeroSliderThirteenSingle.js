@@ -5,9 +5,8 @@ import { Link } from "react-router-dom";
 const HeroSliderThirteenSingle = ({ data, sliderClassName }) => {
   return (
     <div
-      className={`single-slider-3 slider-height-3 bg-gray-2 d-flex align-items-center slider-height-res-hm4 ${
-        sliderClassName ? sliderClassName : ""
-      }`}
+      className={`single-slider-3 slider-height-3 bg-gray-2 d-flex align-items-center slider-height-res-hm4 ${sliderClassName ? sliderClassName : ""
+        }`}
     >
       <div className="container">
         <div className="row align-items-center">
@@ -31,10 +30,10 @@ const HeroSliderThirteenSingle = ({ data, sliderClassName }) => {
               <img
                 className="animated img-fluid"
                 src={process.env.PUBLIC_URL + data.image}
-                alt=""
+                alt="картинка"
               />
               <div className="single-price-wrap">
-                <img src={process.env.PUBLIC_URL + data.shapeImage} alt="" />
+                <img src={process.env.PUBLIC_URL + data.shapeImage} alt="картинка" />
                 <div className="single-price">
                   <span>{data.shapeTitle}</span>
                   <span className="dollar">{data.shapeSubtitle}</span>

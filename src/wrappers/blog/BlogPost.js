@@ -7,7 +7,7 @@ const BlogPost = () => {
       <div className="blog-details-top">
         <div className="blog-details-img">
           <img
-            alt=""
+            alt="картинка"
             src={process.env.PUBLIC_URL + "/assets/img/blog/blog-5.jpg"}
           />
         </div>
@@ -54,7 +54,7 @@ const BlogPost = () => {
           <div className="col-md-6">
             <div className="dec-img mb-50">
               <img
-                alt=""
+                alt="картинка"
                 src={
                   process.env.PUBLIC_URL + "/assets/img/blog/blog-details.jpg"
                 }
@@ -64,7 +64,7 @@ const BlogPost = () => {
           <div className="col-md-6">
             <div className="dec-img mb-50">
               <img
-                alt=""
+                alt="картинка"
                 src={
                   process.env.PUBLIC_URL + "/assets/img/blog/blog-details-2.jpg"
                 }

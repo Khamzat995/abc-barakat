@@ -4,11 +4,10 @@ import React from "react";
 const TestimonialOneSingle = ({ data, sliderClass, testimonialClass }) => {
   return (
     <div
-      className={`${
-        testimonialClass ? testimonialClass : "single-testimonial"
-      } text-center ${sliderClass ? sliderClass : ""}`}
+      className={`${testimonialClass ? testimonialClass : "single-testimonial"
+        } text-center ${sliderClass ? sliderClass : ""}`}
     >
-      <img src={process.env.PUBLIC_URL + data.image} alt="" />
+      <img src={process.env.PUBLIC_URL + data.image} alt="картинка" />
       <p>{data.content}</p>
       <div className="client-info">
         <i className="fa fa-map-signs" />

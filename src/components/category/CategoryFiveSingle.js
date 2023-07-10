@@ -10,7 +10,7 @@ const CategoryFiveSingle = ({ data }) => {
           <Link to={process.env.PUBLIC_URL + data.url}>
             <img
               src={process.env.PUBLIC_URL + data.image}
-              alt=""
+              alt="картинка"
               className="img-fluid"
             />
           </Link>

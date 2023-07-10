@@ -29,11 +29,9 @@ const HeaderSix = ({ layout, headerPaddingClass, headerBgClass }) => {
 
   return (
     <header
-      className={`header-area sticky-bar header-padding-3 header-res-padding clearfix transparent-bar header-hm-7 ${
-        headerBgClass ? headerBgClass : ""
-      } ${headerPaddingClass ? headerPaddingClass : ""} ${
-        scroll > headerTop ? "stick" : ""
-      }`}
+      className={`header-area sticky-bar header-padding-3 header-res-padding clearfix transparent-bar header-hm-7 ${headerBgClass ? headerBgClass : ""
+        } ${headerPaddingClass ? headerPaddingClass : ""} ${scroll > headerTop ? "stick" : ""
+        }`}
     >
       <div className={layout === "container-fluid" ? layout : "container"}>
         <div className="row">
@@ -52,10 +50,10 @@ const HeaderSix = ({ layout, headerPaddingClass, headerBgClass }) => {
             {/* header logo */}
             <div className="logo text-center logo-hm5">
               <Link className="sticky-none" to={process.env.PUBLIC_URL + "/"}>
-                <img alt="" src="assets/img/logo/logo-2.png" />
+                <img alt="картинка" src="assets/img/logo/logo-2.png" />
               </Link>
               <Link className="sticky-block" to={process.env.PUBLIC_URL + "/"}>
-                <img alt="" src="assets/img/logo/logo.png" />
+                <img alt="картинка" src="assets/img/logo/logo.png" />
               </Link>
             </div>
           </div>

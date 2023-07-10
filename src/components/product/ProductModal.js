@@ -109,7 +109,7 @@ function ProductModal(props) {
                             <img
                               src={process.env.PUBLIC_URL + single}
                               className="img-fluid"
-                              alt=""
+                              alt="картинка"
                             />
                           </div>
                         </div>
@@ -127,7 +127,7 @@ function ProductModal(props) {
                             <img
                               src={process.env.PUBLIC_URL + single}
                               className="img-fluid"
-                              alt=""
+                              alt="картинка"
                             />
                           </div>
                         </div>
@@ -206,34 +206,34 @@ function ProductModal(props) {
                           product.variation.map(single => {
                             return single.color === selectedProductColor
                               ? single.size.map((singleSize, key) => {
-                                  return (
-                                    <label
-                                      className={`pro-details-size-content--single`}
-                                      key={key}
-                                    >
-                                      <input
-                                        type="radio"
-                                        value={singleSize.name}
-                                        checked={
-                                          singleSize.name ===
+                                return (
+                                  <label
+                                    className={`pro-details-size-content--single`}
+                                    key={key}
+                                  >
+                                    <input
+                                      type="radio"
+                                      value={singleSize.name}
+                                      checked={
+                                        singleSize.name ===
                                           selectedProductSize
-                                            ? "checked"
-                                            : ""
-                                        }
-                                        onChange={() => {
-                                          setSelectedProductSize(
-                                            singleSize.name
-                                          );
-                                          setProductStock(singleSize.stock);
-                                          setQuantityCount(1);
-                                        }}
-                                      />
-                                      <span className="size-name">
-                                        {singleSize.name}
-                                      </span>
-                                    </label>
-                                  );
-                                })
+                                          ? "checked"
+                                          : ""
+                                      }
+                                      onChange={() => {
+                                        setSelectedProductSize(
+                                          singleSize.name
+                                        );
+                                        setProductStock(singleSize.stock);
+                                        setQuantityCount(1);
+                                      }}
+                                    />
+                                    <span className="size-name">
+                                      {singleSize.name}
+                                    </span>
+                                  </label>
+                                );
+                              })
                               : "";
                           })}
                       </div>

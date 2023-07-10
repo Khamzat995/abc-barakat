@@ -1,5 +1,7 @@
 /*------- 5. Section title style  -------*/
-
+.hero-one {
+  margin-top: 10%;
+}
 .section-title {
   @media #{$xs-layout} {
     &.mb-50 {

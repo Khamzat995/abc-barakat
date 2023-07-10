@@ -11,9 +11,8 @@ const VideoPopupTwo = ({ spaceBottomClass }) => {
       <div
         className="video-popup-2__left bg-img"
         style={{
-          backgroundImage: `url(${
-            process.env.PUBLIC_URL + "/assets/img/bg/bg-7.jpg"
-          })`
+          backgroundImage: `url(${process.env.PUBLIC_URL + "/assets/img/bg/bg-7.jpg"
+            })`
         }}
       >
         <div className="video-popup-2__content">
@@ -37,7 +36,7 @@ const VideoPopupTwo = ({ spaceBottomClass }) => {
           <button onClick={() => isOpen(true)}>
             <img
               src={process.env.PUBLIC_URL + "/assets/img/icon-img/play.png"}
-              alt=""
+              alt="картинка"
             />
           </button>
         </div>
@@ -45,9 +44,8 @@ const VideoPopupTwo = ({ spaceBottomClass }) => {
       <div
         className="video-popup-2__right bg-img"
         style={{
-          backgroundImage: `url(${
-            process.env.PUBLIC_URL + "/assets/img/bg/bg-8.jpg"
-          })`
+          backgroundImage: `url(${process.env.PUBLIC_URL + "/assets/img/bg/bg-8.jpg"
+            })`
         }}
       ></div>
     </div>
