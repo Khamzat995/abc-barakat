@@ -121,6 +121,28 @@
   }
 }
 
+.blockquote {
+  font-size: 18px;
+  font-weight: 500;
+  font-style: italic;
+  line-height: 34px;
+
+  margin: 25px 0 26px;
+
+  color: #333;
+  @media #{$lg-layout} {
+    font-size: 17px;
+  }
+  @media #{$md-layout} {
+    font-size: 17px;
+  }
+  @media #{$xs-layout} {
+    font-size: 16px;
+    line-height: 30px;
+  }
+}
+
+
 .dec-img-wrapper {
   margin-top: 50px;
   @media #{$xs-layout} {

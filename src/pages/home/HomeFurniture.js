@@ -3,7 +3,7 @@ import MetaTags from "react-meta-tags";
 import LayoutOne from "../../layouts/LayoutOne";
 import HeroSliderTwo from "../../wrappers/hero-slider/HeroSliderTwo";
 import BrandLogoSliderOne from "../../wrappers/brand-logo/BrandLogoSliderOne";
-import BannerTwo from "../../wrappers/banner/BannerTwo";
+/* import BannerTwo from "../../wrappers/banner/BannerTwo"; */
 import TabProductTwo from "../../wrappers/product/TabProductTwo";
 import CountDownOne from "../../wrappers/countdown/CountDownOne";
 import MedicalContact from "../../components/contact/MedicalContact";

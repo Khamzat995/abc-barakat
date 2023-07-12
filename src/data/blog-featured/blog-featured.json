@@ -1,36 +1,37 @@
 [
   {
     "id": 1,
-    "image": "/assets/img/blog/blog-41.jpg",
+    "image": "/assets/img/blog/blog-41.webp",
     "category": [
-      "lifestyle",
-      "men"
+      "Жизнь",
+      "люди"
     ],
-    "title": "A guide to latest trends",
-    "url": "/blog-details-standard",
-    "author": "Admin",
+    "title": "Как работают дизайнеры интерьера",
+    "url": "/blog-details-standard-one",
+    "author": "админ",
     "authorUrl": "/blog-standard"
   },
   {
     "id": 2,
-    "image": "/assets/img/blog/blog-42.jpg",
+    "image": "/assets/img/blog/blog-42.webp",
     "category": [
-      "lifestyle"
+      "Красота",
+      "дизайн"
     ],
-    "title": "Five ways to lead a happy life",
-    "url": "/blog-details-standard",
-    "author": "Admin",
+    "title": "Стильный интерьер: простота и аристократизм",
+    "url": "/blog-details-standard-two",
+    "author": "админ",
     "authorUrl": "/blog-standard"
   },
   {
     "id": 3,
-    "image": "/assets/img/blog/blog-45.jpg",
+    "image": "/assets/img/blog/blog-45.webp",
     "category": [
-      "lifestyle"
+      "Здоровье"
     ],
-    "title": "Tips on having a happy life",
-    "url": "/blog-details-standard",
-    "author": "Admin",
+    "title": "Здравоохранение Турции для иностранцев",
+    "url": "/blog-details-standard-three",
+    "author": "админ",
     "authorUrl": "/blog-standard"
   }
 ]

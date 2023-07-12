@@ -5,10 +5,10 @@ import { BreadcrumbsItem } from "react-breadcrumbs-dynamic";
 import LayoutOne from "../../layouts/LayoutOne";
 import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
 import BlogSidebar from "../../wrappers/blog/BlogSidebar";
-import BlogPagination from "../../wrappers/blog/BlogPagination";
-import BlogPosts from "../../wrappers/blog/BlogPosts";
+/* import BlogComment from "../../wrappers/blog/BlogComment"; */
+import BlogPostTwo from "../../wrappers/blog/BlogPostTwo";
 
-const BlogStandard = ({ location }) => {
+const BlogDetailsStandardTwo = ({ location }) => {
   const { pathname } = location;
 
   return (
@@ -17,12 +17,12 @@ const BlogStandard = ({ location }) => {
         <title>BARAKAT HOME | БЛОГ</title>
         <meta
           name="description"
-          content="Blog of flone react minimalist eCommerce template."
+          content="Blog post page of flone react minimalist eCommerce template."
         />
       </MetaTags>
       <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Главная</BreadcrumbsItem>
       <BreadcrumbsItem to={process.env.PUBLIC_URL + pathname}>
-        Блог
+        Блог пост 2
       </BreadcrumbsItem>
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}
@@ -31,14 +31,12 @@ const BlogStandard = ({ location }) => {
           <div className="container">
             <div className="row flex-row-reverse">
               <div className="col-lg-9">
-                <div className="ml-20">
-                  <div className="row">
-                    {/* blog posts */}
-                    <BlogPosts />
-                  </div>
+                <div className="blog-details-wrapper ml-20">
+                  {/* blog post */}
+                  <BlogPostTwo />
 
-                  {/* blog pagination */}
-                  <BlogPagination />
+                  {/* blog post comment */}
+                  {/*  <BlogComment /> */}
                 </div>
               </div>
               <div className="col-lg-3">
@@ -53,8 +51,8 @@ const BlogStandard = ({ location }) => {
   );
 };
 
-BlogStandard.propTypes = {
+BlogDetailsStandardTwo.propTypes = {
   location: PropTypes.object
 };
 
-export default BlogStandard;
+export default BlogDetailsStandardTwo;
