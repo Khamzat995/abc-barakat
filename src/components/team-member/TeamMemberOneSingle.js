@@ -23,7 +23,7 @@ const TeamMemberOneSingle = ({ data, spaceBottomClass }) => {
               <i className="fa fa-facebook" />
             </a>
             <a
-              className="twitter"
+              className="whatsapp"
               href={data.twitterLink}
               target="_blank"
               rel="noopener noreferrer"

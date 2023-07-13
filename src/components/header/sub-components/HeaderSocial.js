@@ -36,7 +36,7 @@ const HeaderSocial = () => {
         </li>
         <li>
           <a
-            className="twitter"
+            className="whatsapp"
             href="//www.twitter.com"
             target="_blank"
             rel="noopener noreferrer"

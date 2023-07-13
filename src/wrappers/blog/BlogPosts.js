@@ -42,7 +42,7 @@ const BlogPosts = () => {
                 <div className="share-social">
                   <ul>
                     <li>
-                      <a className="twitter" href="//twitter.com">
+                      <a className="whatsapp" href="//twitter.com">
                         <i className="fa fa-whatsapp" />
                       </a>
                     </li>
@@ -102,7 +102,7 @@ const BlogPosts = () => {
                 <div className="share-social">
                   <ul>
                     <li>
-                      <a className="twitter" href="//twitter.com">
+                      <a className="whatsapp" href="//twitter.com">
                         <i className="fa fa-whatsapp" />
                       </a>
                     </li>
@@ -162,7 +162,7 @@ const BlogPosts = () => {
                 <div className="share-social">
                   <ul>
                     <li>
-                      <a className="twitter" href="//twitter.com">
+                      <a className="whatsapp" href="//twitter.com">
                         <i className="fa fa-whatsapp" />
                       </a>
                     </li>
@@ -222,7 +222,7 @@ const BlogPosts = () => {
                 <div className="share-social">
                   <ul>
                     <li>
-                      <a className="twitter" href="//twitter.com">
+                      <a className="whatsapp" href="//twitter.com">
                         <i className="fa fa-whatsapp" />
                       </a>
                     </li>
@@ -282,7 +282,7 @@ const BlogPosts = () => {
                 <div className="share-social">
                   <ul>
                     <li>
-                      <a className="twitter" href="//twitter.com">
+                      <a className="whatsapp" href="//twitter.com">
                         <i className="fa fa-whatsapp" />
                       </a>
                     </li>
@@ -342,7 +342,7 @@ const BlogPosts = () => {
                 <div className="share-social">
                   <ul>
                     <li>
-                      <a className="twitter" href="//twitter.com">
+                      <a className="whatsapp" href="//twitter.com">
                         <i className="fa fa-whatsapp" />
                       </a>
                     </li>

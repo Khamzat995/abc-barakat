@@ -5,10 +5,10 @@ const BlogSidebar = () => {
   return (
     <div className="sidebar-style">
       <div className="sidebar-widget">
-        <h4 className="pro-sidebar-title">Search </h4>
+        <h4 className="pro-sidebar-title">Поиск </h4>
         <div className="pro-sidebar-search mb-55 mt-25">
           <form className="pro-sidebar-search-form" action="#">
-            <input type="text" placeholder="Search here..." />
+            <input type="text" placeholder="Введите слово ..." />
             <button>
               <i className="pe-7s-search" />
             </button>
@@ -16,84 +16,85 @@ const BlogSidebar = () => {
         </div>
       </div>
       <div className="sidebar-widget">
-        <h4 className="pro-sidebar-title">Recent Projects </h4>
+        <h4 className="pro-sidebar-title">Свежие проекты </h4>
         <div className="sidebar-project-wrap mt-30">
           <div className="single-sidebar-blog">
             <div className="sidebar-blog-img">
-              <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
+              <Link to={process.env.PUBLIC_URL + "/blog-details-standard-two"}>
                 <img
                   src={
-                    process.env.PUBLIC_URL + "/assets/img/blog/sidebar-1.jpg"
+                    process.env.PUBLIC_URL + "/assets/img/blog/blog-42.webp"
                   }
                   alt="картинка"
                 />
               </Link>
             </div>
             <div className="sidebar-blog-content">
-              <span>Photography</span>
+              <span>Стиль</span>
               <h4>
-                <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
-                  T- Shart And Jeans
+                <Link to={process.env.PUBLIC_URL + "/blog-details-standard-two"}>
+                  Интерьер
                 </Link>
               </h4>
             </div>
           </div>
           <div className="single-sidebar-blog">
             <div className="sidebar-blog-img">
-              <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
+              <Link to={process.env.PUBLIC_URL + "/blog-details-standard-one"}>
                 <img
                   src={
-                    process.env.PUBLIC_URL + "/assets/img/blog/sidebar-2.jpg"
+                    process.env.PUBLIC_URL + "/assets/img/blog/blog-41.webp"
                   }
                   alt="картинка"
                 />
               </Link>
             </div>
+
             <div className="sidebar-blog-content">
-              <span>Branding</span>
+              <span>Люди</span>
               <h4>
-                <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
-                  T- Shart And Jeans
+                <Link to={process.env.PUBLIC_URL + "/blog-details-standard-one"}>
+                  Профессии
                 </Link>
               </h4>
             </div>
           </div>
           <div className="single-sidebar-blog">
             <div className="sidebar-blog-img">
-              <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
+              <Link to={process.env.PUBLIC_URL + "/blog-details-standard-five"}>
                 <img
                   src={
-                    process.env.PUBLIC_URL + "/assets/img/blog/sidebar-3.jpg"
+                    process.env.PUBLIC_URL + "/assets/img/blog/blog-44.webp"
                   }
                   alt="картинка"
                 />
               </Link>
             </div>
             <div className="sidebar-blog-content">
-              <span>Design</span>
+              <span>жизнь</span>
               <h4>
-                <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
-                  T- Shart And Jeans
+                <Link to={process.env.PUBLIC_URL + "/blog-details-standard-five"}>
+                  Путешествия
                 </Link>
               </h4>
             </div>
           </div>
           <div className="single-sidebar-blog">
             <div className="sidebar-blog-img">
-              <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
+              <Link to={process.env.PUBLIC_URL + "/blog-details-standard-six"}>
                 <img
                   src={
-                    process.env.PUBLIC_URL + "/assets/img/blog/sidebar-2.jpg"
+                    process.env.PUBLIC_URL + "/assets/img/blog/blog-46.webp"
                   }
                   alt="картинка"
                 />
               </Link>
             </div>
             <div className="sidebar-blog-content">
-              <span>Photography</span>
+              <span>Образование</span>
               <h4>
-                <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
-                  T- Shart And Jeans
+                <Link to={process.env.PUBLIC_URL + "/blog-details-standard-six"}>
+                  Учеба в Турции
                 </Link>
               </h4>
             </div>
@@ -101,14 +102,14 @@ const BlogSidebar = () => {
         </div>
       </div>
       <div className="sidebar-widget mt-35">
-        <h4 className="pro-sidebar-title">Categories</h4>
+        <h4 className="pro-sidebar-title">Категории</h4>
         <div className="sidebar-widget-list sidebar-widget-list--blog mt-20">
           <ul>
             <li>
               <div className="sidebar-widget-list-left">
                 <input type="checkbox" defaultValue />{" "}
                 <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
-                  Women <span>4</span>{" "}
+                  Дизайн и интерьер <span>14</span>{" "}
                 </Link>
                 <span className="checkmark" />
               </div>
@@ -117,7 +118,7 @@ const BlogSidebar = () => {
               <div className="sidebar-widget-list-left">
                 <input type="checkbox" defaultValue />{" "}
                 <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
-                  Men <span>4</span>{" "}
+                  Жизнь и здоровье <span>8</span>{" "}
                 </Link>
                 <span className="checkmark" />
               </div>
@@ -126,7 +127,7 @@ const BlogSidebar = () => {
               <div className="sidebar-widget-list-left">
                 <input type="checkbox" defaultValue />{" "}
                 <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
-                  Bags <span>4</span>{" "}
+                  Путешествия <span>12</span>{" "}
                 </Link>
                 <span className="checkmark" />
               </div>
@@ -135,7 +136,7 @@ const BlogSidebar = () => {
               <div className="sidebar-widget-list-left">
                 <input type="checkbox" defaultValue />{" "}
                 <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
-                  Accessories <span>4</span>{" "}
+                  Бизнес и инвестиции <span>10</span>{" "}
                 </Link>
                 <span className="checkmark" />
               </div>
@@ -144,30 +145,35 @@ const BlogSidebar = () => {
         </div>
       </div>
       <div className="sidebar-widget mt-50">
-        <h4 className="pro-sidebar-title">Tag </h4>
+        <h4 className="pro-sidebar-title">Теги </h4>
         <div className="sidebar-widget-tag mt-25">
           <ul>
             <li>
-              <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
-                Clothing
+              <Link to={process.env.PUBLIC_URL + "/shop-grid-two-column"}>
+                Мебель
               </Link>
             </li>
             <li>
-              <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
-                Accessories
+              <Link to={process.env.PUBLIC_URL + "/blog-details-standard-four"}>
+                Природа
               </Link>
             </li>
             <li>
-              <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
-                For Men
+              <Link to={process.env.PUBLIC_URL + "/shop-grid-two-column"}>
+                Бренды
               </Link>
             </li>
             <li>
-              <Link to={process.env.PUBLIC_URL + "/blog-standard"}>Women</Link>
+              <Link to={process.env.PUBLIC_URL + "/blog-details-standard-three"}>
+                Здоровье
+              </Link>
             </li>
             <li>
-              <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
-                Fashion
+              <Link to={process.env.PUBLIC_URL + "/blog-details-standard-five"}>Турция</Link>
+            </li>
+            <li>
+              <Link to={process.env.PUBLIC_URL + "/blog-details-standard-two"}>
+                Стиль
               </Link>
             </li>
           </ul>

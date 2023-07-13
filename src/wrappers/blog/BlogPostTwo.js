@@ -164,7 +164,7 @@ const BlogPostTwo = () => {
                 </a>
               </li>
               <li>
-                <a className="twitter" href="//twitter.com">
+                <a className="whatsapp" href="//twitter.com">
                   <i className="fa fa-whatsapp" />
                 </a>
               </li>

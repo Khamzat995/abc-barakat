@@ -312,7 +312,7 @@
                 }
                 &.facebook {
                   border: 1px solid #3b5998;
-                  background-color: #3b5998;
+                  background-color: #1877f2;
                   &:hover {
                     color: #3b5998;
                     background-color: transparent;
@@ -323,6 +323,14 @@
                   background-color: #55acee;
                   &:hover {
                     color: #55acee;
+                    background-color: transparent;
+                  }
+                }
+                &.whatsapp {
+                  border: 1px solid #25d366;
+                  background-color: #25d366;
+                  &:hover {
+                    color:#25d366;
                     background-color: transparent;
                   }
                 }
