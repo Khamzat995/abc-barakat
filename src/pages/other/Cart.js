@@ -33,16 +33,16 @@ const Cart = ({
   return (
     <Fragment>
       <MetaTags>
-        <title>Flone | Cart</title>
+        <title>BARAKAT HOME | КОРЗИНА</title>
         <meta
           name="description"
           content="Cart page of flone react minimalist eCommerce template."
         />
       </MetaTags>
 
-      <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Home</BreadcrumbsItem>
+      <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Главная</BreadcrumbsItem>
       <BreadcrumbsItem to={process.env.PUBLIC_URL + pathname}>
-        Cart
+        Корзина
       </BreadcrumbsItem>
 
       <LayoutOne headerTop="visible">
@@ -52,19 +52,19 @@ const Cart = ({
           <div className="container">
             {cartItems && cartItems.length >= 1 ? (
               <Fragment>
-                <h3 className="cart-page-title">Your cart items</h3>
+                <h3 className="cart-page-title">Ваши товары в корзине</h3>
                 <div className="row">
                   <div className="col-12">
                     <div className="table-content table-responsive cart-table-content">
                       <table>
                         <thead>
                           <tr>
-                            <th>Image</th>
-                            <th>Product Name</th>
-                            <th>Unit Price</th>
-                            <th>Qty</th>
-                            <th>Subtotal</th>
-                            <th>action</th>
+                            <th>Изображение</th>
+                            <th>Наименование</th>
+                            <th>Цена за 1 ед.</th>
+                            <th>Количество</th>
+                            <th>Итого</th>
+                            <th>Удалить</th>
                           </tr>
                         </thead>
                         <tbody>
@@ -120,11 +120,11 @@ const Cart = ({
                                     cartItem.selectedProductSize ? (
                                     <div className="cart-item-variation">
                                       <span>
-                                        Color: {cartItem.selectedProductColor}
+                                        Цвет: {cartItem.selectedProductColor}
                                       </span>
-                                      <span>
+                                      {/*  <span>
                                         Size: {cartItem.selectedProductSize}
-                                      </span>
+                                      </span> */}
                                     </div>
                                   ) : (
                                     ""
@@ -225,14 +225,14 @@ const Cart = ({
                     <div className="cart-shiping-update-wrapper">
                       <div className="cart-shiping-update">
                         <Link
-                          to={process.env.PUBLIC_URL + "/shop-grid-standard"}
+                          to={process.env.PUBLIC_URL + "/shop-grid-two-column"}
                         >
-                          Continue Shopping
+                          Продолжить покупки
                         </Link>
                       </div>
                       <div className="cart-clear">
                         <button onClick={() => deleteAllFromCart(addToast)}>
-                          Clear Shopping Cart
+                          Очистить корзину
                         </button>
                       </div>
                     </div>
@@ -244,40 +244,50 @@ const Cart = ({
                     <div className="cart-tax">
                       <div className="title-wrap">
                         <h4 className="cart-bottom-title section-bg-gray">
-                          Estimate Shipping And Tax
+                          Оценка доставки и налога
                         </h4>
                       </div>
                       <div className="tax-wrapper">
                         <p>
-                          Enter your destination to get a shipping estimate.
+                          Введите пункт назначения, чтобы рассчитать стоимость доставки.
                         </p>
                         <div className="tax-select-wrapper">
                           <div className="tax-select">
-                            <label>* Country</label>
+                            <label>* Страна</label>
                             <select className="email s-email s-wid">
-                              <option>Bangladesh</option>
-                              <option>Albania</option>
-                              <option>Åland Islands</option>
-                              <option>Afghanistan</option>
-                              <option>Belgium</option>
+                              <option>Турция</option>
+                              <option>Беларусь</option>
+                              <option>Казахстан</option>
+                              <option>Украина</option>
+                              <option>Россия</option>
                             </select>
                           </div>
                           <div className="tax-select">
-                            <label>* Region / State</label>
+                            <label>* Регион / Город</label>
                             <select className="email s-email s-wid">
-                              <option>Bangladesh</option>
-                              <option>Albania</option>
-                              <option>Åland Islands</option>
-                              <option>Afghanistan</option>
-                              <option>Belgium</option>
+                              <option>Стамбул</option>
+                              <option>Анкара</option>
+                              <option>Анталья</option>
+                              <option>Измир</option>
+                              <option>Минск</option>
+                              <option>Брест</option>
+                              <option>Алма-Ата</option>
+                              <option>Астана</option>
+                              <option>Шымкент</option>
+                              <option>Киев</option>
+                              <option>Харьков</option>
+                              <option>Одесса</option>
+                              <option>Москва</option>
+                              <option>Краснодар</option>
+                              <option>Махачкала</option>
                             </select>
                           </div>
                           <div className="tax-select">
-                            <label>* Zip/Postal Code</label>
+                            <label>* Почтовый индекс</label>
                             <input type="text" />
                           </div>
                           <button className="cart-btn-2" type="submit">
-                            Get A Quote
+                            Рассчитать
                           </button>
                         </div>
                       </div>
@@ -288,15 +298,15 @@ const Cart = ({
                     <div className="discount-code-wrapper">
                       <div className="title-wrap">
                         <h4 className="cart-bottom-title section-bg-gray">
-                          Use Coupon Code
+                          Используйте код купона
                         </h4>
                       </div>
                       <div className="discount-code">
-                        <p>Enter your coupon code if you have one.</p>
+                        <p>Введите код купона, если он у вас есть</p>
                         <form>
                           <input type="text" required name="name" />
                           <button className="cart-btn-2" type="submit">
-                            Apply Coupon
+                            Применить купон
                           </button>
                         </form>
                       </div>
@@ -307,24 +317,24 @@ const Cart = ({
                     <div className="grand-totall">
                       <div className="title-wrap">
                         <h4 className="cart-bottom-title section-bg-gary-cart">
-                          Cart Total
+                          Всего в корзине
                         </h4>
                       </div>
                       <h5>
-                        Total products{" "}
+                        Всего товаров{" "}
                         <span>
                           {currency.currencySymbol + cartTotalPrice.toFixed(2)}
                         </span>
                       </h5>
 
                       <h4 className="grand-totall-title">
-                        Grand Total{" "}
+                        Общий итог{" "}
                         <span>
                           {currency.currencySymbol + cartTotalPrice.toFixed(2)}
                         </span>
                       </h4>
                       <Link to={process.env.PUBLIC_URL + "/checkout"}>
-                        Proceed to Checkout
+                        Перейти к оформлению заказа
                       </Link>
                     </div>
                   </div>
@@ -338,9 +348,9 @@ const Cart = ({
                       <i className="pe-7s-cart"></i>
                     </div>
                     <div className="item-empty-area__text">
-                      No items found in cart <br />{" "}
-                      <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
-                        Shop Now
+                      Корзина пуста <br />{" "}
+                      <Link to={process.env.PUBLIC_URL + "/shop-grid-two-column"}>
+                        Купить сейчас
                       </Link>
                     </div>
                   </div>
