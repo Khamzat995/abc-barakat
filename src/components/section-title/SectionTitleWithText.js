@@ -4,19 +4,24 @@ import React from "react";
 const SectionTitleWithText = ({ spaceTopClass, spaceBottomClass }) => {
   return (
     <div
-      className={`welcome-area ${spaceTopClass ? spaceTopClass : ""} ${
-        spaceBottomClass ? spaceBottomClass : ""
-      }`}
+      className={`welcome-area ${spaceTopClass ? spaceTopClass : ""} ${spaceBottomClass ? spaceBottomClass : ""
+        }`}
     >
       <div className="container">
         <div className="welcome-content text-center">
-          <h5>Who Are We</h5>
-          <h1>Welcome To Flone</h1>
+          <h1>Добро пожаловать в BARAKAT HOME!</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt labor et dolore magna aliqua. Ut enim ad
-            minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commo consequat irure{" "}
+            Наша компания с 2009 года успешно занимается экспортом из Турции мебели для дома, офиса и
+            дачи. Мы работаем напрямую с ведущими турецкими производителями из более 50
+            мебельных фабрик,
+            пользуюшихся заслуженной любовью покупателей.
+            В нашем ассортименте: гостиные, спальни, кухни, мебель для детских комнат, стенки, шкафы купе, прихожие, модульная мебель, кровати и многое другое.
+
+            Мы рады предоставить качественную продукцию и сервис каждому покупателю, так как,
+            для нас очень важен Ваш положительный отзыв, как и отзывы тысяч довольных
+            клиентов, среди которых крупные сетевые компании и предприятия.
+
+            {" "}
           </p>
         </div>
       </div>

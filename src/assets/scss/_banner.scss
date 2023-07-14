@@ -42,7 +42,7 @@
 
       margin: 0;
 
-      color: #915342;
+      color: #fff;
       @media #{$md-layout} {
         font-size: 27px;
       }
@@ -57,7 +57,7 @@
 
       margin: 3px 0 58px;
 
-      color: #010101;
+      color: #fff;
       @media #{$lg-layout} {
         margin: 3px 0 25px;
       }
@@ -94,8 +94,8 @@
 
       text-align: center;
 
-      color: #97584a;
-      border: 2px solid #97584a;
+      color: #fff;
+      border: 2px solid #f7ed04;
       border-radius: 100%;
       i {
         line-height: 25px;

@@ -14,7 +14,7 @@ const BannerOneSingle = ({ data, spaceBottomClass }) => {
         <div className="banner-content">
           <h3>{data.title}</h3>
           <h4>
-            {data.subtitle} <span>{data.price}</span>
+            {data.subtitle} {/* <span>{data.price}</span> */}
           </h4>
           <Link to={process.env.PUBLIC_URL + data.link}>
             <i className="fa fa-long-arrow-right" />

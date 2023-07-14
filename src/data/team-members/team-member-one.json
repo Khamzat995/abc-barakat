@@ -1,38 +1,38 @@
 [
   {
     "id": "1",
-    "image": "/assets/img/team/team-1.jpg",
+    "image": "/assets/img/team/manager_1.jpg",
     "fbLink": "//www.facebook.com",
-    "twitterLink": "//www.twitter.com",
+    "telegramLink": "//www.telegram.com",
     "instagramLink": "//www.instagram.com",
     "name": "Mr.Mike Banding",
-    "position": "Manager"
+    "position": "Директор кампании"
   },
   {
     "id": "2",
-    "image": "/assets/img/team/team-3.jpg",
+    "image": "/assets/img/team/manager_2.jpg",
     "fbLink": "//www.facebook.com",
-    "twitterLink": "//www.twitter.com",
+    "telegramLink": "//www.telegram.com",
     "instagramLink": "//www.instagram.com",
-    "name": "Mr.Peter Pan",
-    "position": "Developer"
+    "name": "Ms.Petra Pany",
+    "position": "Менеджер по продажам"
   },
   {
     "id": "3",
-    "image": "/assets/img/team/team-2.jpg",
+    "image": "/assets/img/team/manager_3.jpg",
     "fbLink": "//www.facebook.com",
-    "twitterLink": "//www.twitter.com",
+    "telegramLink": "//www.telegram.com",
     "instagramLink": "//www.instagram.com",
     "name": "Ms.Sophia",
-    "position": "Designer"
+    "position": "Продавец-консультант"
   },
   {
     "id": "4",
-    "image": "/assets/img/team/team-4.jpg",
+    "image": "/assets/img/team/manager_4.jpg",
     "fbLink": "//www.facebook.com",
-    "twitterLink": "//www.twitter.com",
+    "telegramLink": "//www.telegram.com",
     "instagramLink": "//www.instagram.com",
     "name": "Mr.John Lee",
-    "position": "Chairman"
+    "position": "Администратор магазина"
   }
 ]

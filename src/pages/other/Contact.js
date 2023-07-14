@@ -12,15 +12,15 @@ const Contact = ({ location }) => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Flone | Contact</title>
+        <title>BARAKAT HOME | БЛОГ</title>
         <meta
           name="description"
           content="Contact of flone react minimalist eCommerce template."
         />
       </MetaTags>
-      <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Home</BreadcrumbsItem>
+      <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Главная</BreadcrumbsItem>
       <BreadcrumbsItem to={process.env.PUBLIC_URL + pathname}>
-        Contact
+        Контакты
       </BreadcrumbsItem>
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}
@@ -28,7 +28,7 @@ const Contact = ({ location }) => {
         <div className="contact-area pt-100 pb-100">
           <div className="container">
             <div className="contact-map mb-10">
-              <LocationMap latitude="47.444" longitude="-122.176" />
+              <LocationMap latitude="40.0864" longitude="29.510" />
             </div>
             <div className="custom-row-2">
               <div className="col-lg-4 col-md-5">
@@ -38,8 +38,8 @@ const Contact = ({ location }) => {
                       <i className="fa fa-phone" />
                     </div>
                     <div className="contact-info-dec">
-                      <p>+012 345 678 102</p>
-                      <p>+012 345 678 102</p>
+                      <p>+90 505 798 00 34</p>
+                      <p>+90 505 798 00 00</p>
                     </div>
                   </div>
                   <div className="single-contact-info">
@@ -48,10 +48,10 @@ const Contact = ({ location }) => {
                     </div>
                     <div className="contact-info-dec">
                       <p>
-                        <a href="mailto:urname@email.com">urname@email.com</a>
+                        <a href="mailto:bhome.tr@gmail.com">bhome.tr@gmail.com</a>
                       </p>
                       <p>
-                        <a href="//urwebsitenaem.com">urwebsitenaem.com</a>
+                        <a href="//urwebsitenaem.com">@barakat-home.com</a>
                       </p>
                     </div>
                   </div>
@@ -60,31 +60,32 @@ const Contact = ({ location }) => {
                       <i className="fa fa-map-marker" />
                     </div>
                     <div className="contact-info-dec">
-                      <p>Address goes here, </p>
-                      <p>street, Crossroad 123.</p>
+                      <p>Akhisar Mh. 2.Fatih Cad.№ 2D,</p>
+                      <p>İnegöl / Bursa</p>
                     </div>
                   </div>
                   <div className="contact-social text-center">
-                    <h3>Follow Us</h3>
+                    <h3>Подписывайтесь:</h3>
                     <ul>
+                      <li>
+                        <a href="https://www.instagram.com/barakat_home_tr/">
+                          <i className="fa fa-instagram" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="//telegram.com">
+                          <i className="fa fa-paper-plane" />
+                        </a>
+                      </li>
                       <li>
                         <a href="//facebook.com">
                           <i className="fa fa-facebook" />
                         </a>
                       </li>
+
                       <li>
                         <a href="//pinterest.com">
-                          <i className="fa fa-pinterest-p" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="//thumblr.com">
-                          <i className="fa fa-tumblr" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="//vimeo.com">
-                          <i className="fa fa-vimeo" />
+                          <i className="fa fa-youtube" />
                         </a>
                       </li>
                       <li>
@@ -92,6 +93,7 @@ const Contact = ({ location }) => {
                           <i className="fa fa-whatsapp" />
                         </a>
                       </li>
+
                     </ul>
                   </div>
                 </div>
@@ -99,31 +101,31 @@ const Contact = ({ location }) => {
               <div className="col-lg-8 col-md-7">
                 <div className="contact-form">
                   <div className="contact-title mb-30">
-                    <h2>Get In Touch</h2>
+                    <h2>Связаться</h2>
                   </div>
                   <form className="contact-form-style">
                     <div className="row">
                       <div className="col-lg-6">
-                        <input name="name" placeholder="Name*" type="text" />
+                        <input name="name" placeholder="Имя*" type="text" />
                       </div>
                       <div className="col-lg-6">
-                        <input name="email" placeholder="Email*" type="email" />
+                        <input name="email" placeholder="Электронная почта*" type="email" />
                       </div>
                       <div className="col-lg-12">
                         <input
                           name="subject"
-                          placeholder="Subject*"
+                          placeholder="Заголовок ..."
                           type="text"
                         />
                       </div>
                       <div className="col-lg-12">
                         <textarea
                           name="message"
-                          placeholder="Your Message*"
+                          placeholder="Текст сообшения ..."
                           defaultValue={""}
                         />
                         <button className="submit" type="submit">
-                          SEND
+                          ОТПРАВИТЬ
                         </button>
                       </div>
                     </div>

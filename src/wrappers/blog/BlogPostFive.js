@@ -214,19 +214,25 @@ const BlogPostFive = () => {
           <span>Поделиться :</span>
           <div className="share-social">
             <ul>
-              <li>
-                <a className="facebook" href="//facebook.com">
-                  <i className="fa fa-facebook" />
-                </a>
-              </li>
+
               <li>
                 <a className="whatsapp" href="//twitter.com">
                   <i className="fa fa-whatsapp" />
                 </a>
               </li>
               <li>
+                <a className="telegram" href="//facebook.com">
+                  <i className="fa fa-paper-plane" />
+                </a>
+              </li>
+              <li>
                 <a className="instagram" href="//instagram.com">
                   <i className="fa fa-instagram" />
+                </a>
+              </li>
+              <li>
+                <a className="facebook" href="//facebook.com">
+                  <i className="fa fa-facebook" />
                 </a>
               </li>
             </ul>

@@ -2,25 +2,25 @@
   {
     "id": "1",
     "iconClass": "pe-7s-portfolio",
-    "countNum": 360,
-    "title": "project done"
+    "countNum": 2160,
+    "title": "Выполненых заказов"
   },
   {
     "id": "2",
     "iconClass": "pe-7s-cup",
     "countNum": 690,
-    "title": "cups of coffee"
+    "title": "Наши награды"
   },
   {
     "id": "3",
     "iconClass": "pe-7s-light",
-    "countNum": 100,
-    "title": "branding"
+    "countNum": 50,
+    "title": "Фабрик партнеров"
   },
   {
     "id": "4",
     "iconClass": "pe-7s-smile",
-    "countNum": 420,
-    "title": "happy clients"
+    "countNum": 2420,
+    "title": "Довольных клиентов"
   }
 ]

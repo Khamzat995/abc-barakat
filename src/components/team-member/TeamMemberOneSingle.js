@@ -15,20 +15,12 @@ const TeamMemberOneSingle = ({ data, spaceBottomClass }) => {
           />
           <div className="team-action">
             <a
-              className="facebook"
-              href={data.fbLink}
+              className="telegram"
+              href={data.telegramLink}
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fa fa-facebook" />
-            </a>
-            <a
-              className="whatsapp"
-              href={data.twitterLink}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fa fa-whatsapp" />
+              <i className="fa fa-paper-plane" />
             </a>
             <a
               className="instagram"
@@ -38,6 +30,15 @@ const TeamMemberOneSingle = ({ data, spaceBottomClass }) => {
             >
               <i className="fa fa-instagram" />
             </a>
+            <a
+              className="facebook"
+              href={data.fbLink}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fa fa-facebook" />
+            </a>
+
           </div>
         </div>
         <div className="team-content text-center">
