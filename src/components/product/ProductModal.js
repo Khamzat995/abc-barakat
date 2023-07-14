@@ -301,10 +301,10 @@ function ProductModal(props) {
                           disabled={productCartQty >= productStock}
                         >
                           {" "}
-                          Add To Cart{" "}
+                          Добавить в корзину{" "}
                         </button>
                       ) : (
-                        <button disabled>Out of Stock</button>
+                        <button disabled>Распродано</button>
                       )}
                     </div>
                     <div className="pro-details-wishlist">

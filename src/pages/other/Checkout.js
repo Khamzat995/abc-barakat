@@ -15,15 +15,15 @@ const Checkout = ({ location, cartItems, currency }) => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Flone | Checkout</title>
+        <title>BARAKAT HOME | ПРОВЕРКА</title>
         <meta
           name="description"
           content="Checkout page of flone react minimalist eCommerce template."
         />
       </MetaTags>
-      <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Home</BreadcrumbsItem>
+      <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Главная</BreadcrumbsItem>
       <BreadcrumbsItem to={process.env.PUBLIC_URL + pathname}>
-        Checkout
+        Проверка
       </BreadcrumbsItem>
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}
@@ -34,91 +34,91 @@ const Checkout = ({ location, cartItems, currency }) => {
               <div className="row">
                 <div className="col-lg-7">
                   <div className="billing-info-wrap">
-                    <h3>Billing Details</h3>
+                    <h3>Платежные реквизиты</h3>
                     <div className="row">
                       <div className="col-lg-6 col-md-6">
                         <div className="billing-info mb-20">
-                          <label>First Name</label>
+                          <label>Имя</label>
                           <input type="text" />
                         </div>
                       </div>
                       <div className="col-lg-6 col-md-6">
                         <div className="billing-info mb-20">
-                          <label>Last Name</label>
+                          <label>Фамилия</label>
                           <input type="text" />
                         </div>
                       </div>
                       <div className="col-lg-12">
                         <div className="billing-info mb-20">
-                          <label>Company Name</label>
+                          <label>Название компании</label>
                           <input type="text" />
                         </div>
                       </div>
                       <div className="col-lg-12">
                         <div className="billing-select mb-20">
-                          <label>Country</label>
+                          <label>Страна</label>
                           <select>
-                            <option>Select a country</option>
-                            <option>Azerbaijan</option>
-                            <option>Bahamas</option>
-                            <option>Bahrain</option>
-                            <option>Bangladesh</option>
-                            <option>Barbados</option>
+                            <option>Выберите страну</option>
+                            <option>Турция</option>
+                            <option>Беларусь</option>
+                            <option>Казахстан</option>
+                            <option>Украина</option>
+                            <option>Россия</option>
                           </select>
                         </div>
                       </div>
                       <div className="col-lg-12">
                         <div className="billing-info mb-20">
-                          <label>Street Address</label>
+                          <label>Адрес улицы</label>
                           <input
                             className="billing-address"
-                            placeholder="House number and street name"
+                            placeholder="Номер дома и название улицы"
                             type="text"
                           />
                           <input
-                            placeholder="Apartment, suite, unit etc."
+                            placeholder="Квартира, корпус, блок и т.п."
                             type="text"
                           />
                         </div>
                       </div>
                       <div className="col-lg-12">
                         <div className="billing-info mb-20">
-                          <label>Town / City</label>
+                          <label>Город / поселок</label>
                           <input type="text" />
                         </div>
                       </div>
                       <div className="col-lg-6 col-md-6">
                         <div className="billing-info mb-20">
-                          <label>State / County</label>
+                          <label>Край / Республика</label>
                           <input type="text" />
                         </div>
                       </div>
                       <div className="col-lg-6 col-md-6">
                         <div className="billing-info mb-20">
-                          <label>Postcode / ZIP</label>
+                          <label>Почтовый индекс</label>
                           <input type="text" />
                         </div>
                       </div>
                       <div className="col-lg-6 col-md-6">
                         <div className="billing-info mb-20">
-                          <label>Phone</label>
+                          <label>Телефон</label>
                           <input type="text" />
                         </div>
                       </div>
                       <div className="col-lg-6 col-md-6">
                         <div className="billing-info mb-20">
-                          <label>Email Address</label>
+                          <label>Электронная почта</label>
                           <input type="text" />
                         </div>
                       </div>
                     </div>
 
                     <div className="additional-info-wrap">
-                      <h4>Additional information</h4>
+                      <h4>Дополнительная информация</h4>
                       <div className="additional-info">
-                        <label>Order notes</label>
+                        <label>Примечания к заказу</label>
                         <textarea
-                          placeholder="Notes about your order, e.g. special notes for delivery. "
+                          placeholder="Примечания к вашему заказу, например: удобное время для доставки и т.п. "
                           name="message"
                           defaultValue={""}
                         />
@@ -129,13 +129,13 @@ const Checkout = ({ location, cartItems, currency }) => {
 
                 <div className="col-lg-5">
                   <div className="your-order-area">
-                    <h3>Your order</h3>
+                    <h3>Ваш заказ</h3>
                     <div className="your-order-wrap gray-bg-4">
                       <div className="your-order-product-info">
                         <div className="your-order-top">
                           <ul>
-                            <li>Product</li>
-                            <li>Total</li>
+                            <li>Товар</li>
+                            <li>Итого</li>
                           </ul>
                         </div>
                         <div className="your-order-middle">
@@ -154,9 +154,9 @@ const Checkout = ({ location, cartItems, currency }) => {
 
                               discountedPrice != null
                                 ? (cartTotalPrice +=
-                                    finalDiscountedPrice * cartItem.quantity)
+                                  finalDiscountedPrice * cartItem.quantity)
                                 : (cartTotalPrice +=
-                                    finalProductPrice * cartItem.quantity);
+                                  finalProductPrice * cartItem.quantity);
                               return (
                                 <li key={key}>
                                   <span className="order-middle-left">
@@ -165,14 +165,14 @@ const Checkout = ({ location, cartItems, currency }) => {
                                   <span className="order-price">
                                     {discountedPrice !== null
                                       ? currency.currencySymbol +
-                                        (
-                                          finalDiscountedPrice *
-                                          cartItem.quantity
-                                        ).toFixed(2)
+                                      (
+                                        finalDiscountedPrice *
+                                        cartItem.quantity
+                                      ).toFixed(2)
                                       : currency.currencySymbol +
-                                        (
-                                          finalProductPrice * cartItem.quantity
-                                        ).toFixed(2)}
+                                      (
+                                        finalProductPrice * cartItem.quantity
+                                      ).toFixed(2)}
                                   </span>
                                 </li>
                               );
@@ -181,13 +181,13 @@ const Checkout = ({ location, cartItems, currency }) => {
                         </div>
                         <div className="your-order-bottom">
                           <ul>
-                            <li className="your-order-shipping">Shipping</li>
-                            <li>Free shipping</li>
+                            <li className="your-order-shipping">Доставка</li>
+                            <li>Бесплатная доставка</li>
                           </ul>
                         </div>
                         <div className="your-order-total">
                           <ul>
-                            <li className="order-total">Total</li>
+                            <li className="order-total">Сумма</li>
                             <li>
                               {currency.currencySymbol +
                                 cartTotalPrice.toFixed(2)}
@@ -198,7 +198,7 @@ const Checkout = ({ location, cartItems, currency }) => {
                       <div className="payment-method"></div>
                     </div>
                     <div className="place-order mt-25">
-                      <button className="btn-hover">Place Order</button>
+                      <button className="btn-hover">Сделать заказ</button>
                     </div>
                   </div>
                 </div>
@@ -211,9 +211,9 @@ const Checkout = ({ location, cartItems, currency }) => {
                       <i className="pe-7s-cash"></i>
                     </div>
                     <div className="item-empty-area__text">
-                      No items found in cart to checkout <br />{" "}
-                      <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
-                        Shop Now
+                      В корзине нет товаров для оформления заказа <br />{" "}
+                      <Link to={process.env.PUBLIC_URL + "/shop-grid-two-column"}>
+                        Перейти в магазин
                       </Link>
                     </div>
                   </div>

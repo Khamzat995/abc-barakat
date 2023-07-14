@@ -26,15 +26,15 @@ const Compare = ({
   return (
     <Fragment>
       <MetaTags>
-        <title>Flone | Compare</title>
+        <title>BARAKAT HOME | СРАВНЕНИЕ</title>
         <meta
           name="description"
           content="Compare page of flone react minimalist eCommerce template."
         />
       </MetaTags>
-      <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Home</BreadcrumbsItem>
+      <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Главная</BreadcrumbsItem>
       <BreadcrumbsItem to={process.env.PUBLIC_URL + pathname}>
-        Compare
+        Сравнение
       </BreadcrumbsItem>
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}
@@ -49,7 +49,7 @@ const Compare = ({
                       <table className="table table-bordered mb-0">
                         <tbody>
                           <tr>
-                            <th className="title-column">Product Info</th>
+                            <th className="title-column">Информация о товаре</th>
                             {compareItems.map((compareItem, key) => {
                               const cartItem = cartItems.filter(
                                 item => item.id === compareItem.id
@@ -101,14 +101,14 @@ const Compare = ({
                                         target="_blank"
                                       >
                                         {" "}
-                                        Buy now{" "}
+                                        Купить сейчас{" "}
                                       </a>
                                     ) : compareItem.variation &&
                                       compareItem.variation.length >= 1 ? (
                                       <Link
                                         to={`${process.env.PUBLIC_URL}/product/${compareItem.id}`}
                                       >
-                                        Select Option
+                                        Выберите опцию
                                       </Link>
                                     ) : compareItem.stock &&
                                       compareItem.stock > 0 ? (
@@ -128,18 +128,18 @@ const Compare = ({
                                         }
                                         title={
                                           compareItem !== undefined
-                                            ? "Added to cart"
-                                            : "Add to cart"
+                                            ? "Добавлено в корзину"
+                                            : "Добавить в корзину"
                                         }
                                       >
                                         {cartItem !== undefined &&
                                           cartItem.quantity > 0
-                                          ? "Added"
-                                          : "Add to cart"}
+                                          ? "Добавлено"
+                                          : "Добавить в корзину"}
                                       </button>
                                     ) : (
                                       <button disabled className="active">
-                                        Out of Stock
+                                        Распродано
                                       </button>
                                     )}
                                   </div>
@@ -148,7 +148,7 @@ const Compare = ({
                             })}
                           </tr>
                           <tr>
-                            <th className="title-column">Price</th>
+                            <th className="title-column">Цена</th>
                             {compareItems.map((compareItem, key) => {
                               const discountedPrice = getDiscountPrice(
                                 compareItem.price,
@@ -185,7 +185,7 @@ const Compare = ({
                           </tr>
 
                           <tr>
-                            <th className="title-column">Description</th>
+                            <th className="title-column">Описание</th>
                             {compareItems.map((compareItem, key) => {
                               return (
                                 <td className="product-desc" key={key}>
@@ -200,7 +200,7 @@ const Compare = ({
                           </tr>
 
                           <tr>
-                            <th className="title-column">Rating</th>
+                            <th className="title-column">Рейтинг</th>
                             {compareItems.map((compareItem, key) => {
                               return (
                                 <td className="product-rating" key={key}>
@@ -223,9 +223,9 @@ const Compare = ({
                       <i className="pe-7s-shuffle"></i>
                     </div>
                     <div className="item-empty-area__text">
-                      No items found in compare <br />{" "}
-                      <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
-                        Add Items
+                      Ничего не найдено в сравнении <br />{" "}
+                      <Link to={process.env.PUBLIC_URL + "/shop-grid-two-column"}>
+                        Перейти в магазин
                       </Link>
                     </div>
                   </div>

@@ -94,7 +94,7 @@ const MenuCart = ({ cartData, currency, deleteFromCart }) => {
           </div>
         </Fragment>
       ) : (
-        <p className="text-center">No items added to cart</p>
+        <p className="text-center">В корзину не добавлены товары</p>
       )}
     </div>
   );

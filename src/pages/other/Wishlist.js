@@ -30,16 +30,16 @@ const Wishlist = ({
   return (
     <Fragment>
       <MetaTags>
-        <title>Flone | Wishlist</title>
+        <title>BARAKAT HOME | ИЗБРАННЫЕ</title>
         <meta
           name="description"
           content="Wishlist page of flone react minimalist eCommerce template."
         />
       </MetaTags>
 
-      <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Home</BreadcrumbsItem>
+      <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Главная</BreadcrumbsItem>
       <BreadcrumbsItem to={process.env.PUBLIC_URL + pathname}>
-        Wishlist
+        Избранные
       </BreadcrumbsItem>
 
       <LayoutOne headerTop="visible">
@@ -49,18 +49,18 @@ const Wishlist = ({
           <div className="container">
             {wishlistItems && wishlistItems.length >= 1 ? (
               <Fragment>
-                <h3 className="cart-page-title">Your wishlist items</h3>
+                <h3 className="cart-page-title">Ваш список избранных</h3>
                 <div className="row">
                   <div className="col-12">
                     <div className="table-content table-responsive cart-table-content">
                       <table>
                         <thead>
                           <tr>
-                            <th>Image</th>
-                            <th>Product Name</th>
-                            <th>Unit Price</th>
-                            <th>Add To Cart</th>
-                            <th>action</th>
+                            <th>Изображение</th>
+                            <th>Наименование</th>
+                            <th>Цена</th>
+                            <th>Добавить в корзину</th>
+                            <th>Удалить</th>
                           </tr>
                         </thead>
                         <tbody>
@@ -139,14 +139,14 @@ const Wishlist = ({
                                       target="_blank"
                                     >
                                       {" "}
-                                      Buy now{" "}
+                                      Купить сейчас{" "}
                                     </a>
                                   ) : wishlistItem.variation &&
                                     wishlistItem.variation.length >= 1 ? (
                                     <Link
                                       to={`${process.env.PUBLIC_URL}/product/${wishlistItem.id}`}
                                     >
-                                      Select option
+                                      Выберите опцию
                                     </Link>
                                   ) : wishlistItem.stock &&
                                     wishlistItem.stock > 0 ? (
@@ -166,18 +166,18 @@ const Wishlist = ({
                                       }
                                       title={
                                         wishlistItem !== undefined
-                                          ? "Added to cart"
-                                          : "Add to cart"
+                                          ? "Добавлено в корзину"
+                                          : "Добавить в корзину"
                                       }
                                     >
                                       {cartItem !== undefined &&
                                         cartItem.quantity > 0
-                                        ? "Added"
-                                        : "Add to cart"}
+                                        ? "Добавлен"
+                                        : "Добавить в корзину"}
                                     </button>
                                   ) : (
                                     <button disabled className="active">
-                                      Out of stock
+                                      Распродано
                                     </button>
                                   )}
                                 </td>
@@ -205,14 +205,14 @@ const Wishlist = ({
                     <div className="cart-shiping-update-wrapper">
                       <div className="cart-shiping-update">
                         <Link
-                          to={process.env.PUBLIC_URL + "/shop-grid-standard"}
+                          to={process.env.PUBLIC_URL + "/shop-grid-two-column"}
                         >
-                          Continue Shopping
+                          Продолжить покупки
                         </Link>
                       </div>
                       <div className="cart-clear">
                         <button onClick={() => deleteAllFromWishlist(addToast)}>
-                          Clear Wishlist
+                          Очистить список избранных
                         </button>
                       </div>
                     </div>
@@ -227,9 +227,9 @@ const Wishlist = ({
                       <i className="pe-7s-like"></i>
                     </div>
                     <div className="item-empty-area__text">
-                      No items found in wishlist <br />{" "}
-                      <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
-                        Add Items
+                      Список избранных пуст<br />{" "}
+                      <Link to={process.env.PUBLIC_URL + "/shop-grid-two-column"}>
+                        Перейти в магазин
                       </Link>
                     </div>
                   </div>

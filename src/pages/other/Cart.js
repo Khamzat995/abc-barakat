@@ -350,7 +350,7 @@ const Cart = ({
                     <div className="item-empty-area__text">
                       Корзина пуста <br />{" "}
                       <Link to={process.env.PUBLIC_URL + "/shop-grid-two-column"}>
-                        Купить сейчас
+                        Перейти в магазин
                       </Link>
                     </div>
                   </div>
