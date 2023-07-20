@@ -250,7 +250,7 @@ const ProductDescriptionInfo = ({
       )}
       {product.tag ? (
         <div className="pro-details-meta">
-          <span>Tags :</span>
+          <span>Теги :</span>
           <ul>
             {product.tag.map((single, key) => {
               return (

@@ -15,16 +15,16 @@ const Product = ({ location, product }) => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Flone | Product Page</title>
+        <title>BARAKAT HOME | ТОВАР</title>
         <meta
           name="description"
           content="Product page of flone react minimalist eCommerce template."
         />
       </MetaTags>
 
-      <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Home</BreadcrumbsItem>
+      <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Главная</BreadcrumbsItem>
       <BreadcrumbsItem to={process.env.PUBLIC_URL + pathname}>
-        Shop Product
+        Товар
       </BreadcrumbsItem>
 
       <LayoutOne headerTop="visible">

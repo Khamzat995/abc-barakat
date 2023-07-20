@@ -15,7 +15,7 @@ const HomeFurniture = () => {
   return (
     <Fragment>
       <MetaTags>
-        <title>BARAKAT HOME</title>
+        <title>BARAKAT HOME | ГЛАВНАЯ</title>
         <meta
           name="description"
           content="Mебель из Турции по ценам фабрик производителей. Доставка до вашего дома."
